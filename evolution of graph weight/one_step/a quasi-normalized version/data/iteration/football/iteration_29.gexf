@@ -1,0 +1,4333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-09-16">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="ricciCurvature" type="float" />
+      <attribute id="4" title="original_RC" type="double" />
+      <attribute id="5" title="contraction" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="value" type="long" />
+      <attribute id="1" title="ricciCurvature" type="float" />
+      <attribute id="2" title="contraction" type="string" />
+    </attributes>
+    <nodes>
+      <node id="BrighamYoung" label="BrighamYoung">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="-2.359151554455837" />
+        </attvalues>
+      </node>
+      <node id="FloridaState" label="FloridaState">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-3.3520004567697534" />
+        </attvalues>
+      </node>
+      <node id="Iowa" label="Iowa">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.391341394673843" />
+        </attvalues>
+      </node>
+      <node id="KansasState" label="KansasState">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.2628125194082696" />
+        </attvalues>
+      </node>
+      <node id="NewMexico" label="NewMexico">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="-3.1277692169551656" />
+        </attvalues>
+      </node>
+      <node id="TexasTech" label="TexasTech">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.286175966269521" />
+        </attvalues>
+      </node>
+      <node id="PennState" label="PennState">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.44632370814563" />
+        </attvalues>
+      </node>
+      <node id="SouthernCalifornia" label="SouthernCalifornia">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-4.090102961501656" />
+        </attvalues>
+      </node>
+      <node id="ArizonaState" label="ArizonaState">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-27.146906752606284" />
+        </attvalues>
+      </node>
+      <node id="SanDiegoState" label="SanDiegoState">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="-2.6186550987198456" />
+        </attvalues>
+      </node>
+      <node id="Baylor" label="Baylor">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.8193925978165497" />
+        </attvalues>
+      </node>
+      <node id="NorthTexas" label="NorthTexas">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="-2.0023596709233082" />
+        </attvalues>
+      </node>
+      <node id="NorthernIllinois" label="NorthernIllinois">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.2888730429514768" />
+        </attvalues>
+      </node>
+      <node id="Northwestern" label="Northwestern">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.8061732651407114" />
+        </attvalues>
+      </node>
+      <node id="WesternMichigan" label="WesternMichigan">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.276613709927327" />
+        </attvalues>
+      </node>
+      <node id="Wisconsin" label="Wisconsin">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.458738912420999" />
+        </attvalues>
+      </node>
+      <node id="Wyoming" label="Wyoming">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="-2.631238621274707" />
+        </attvalues>
+      </node>
+      <node id="Auburn" label="Auburn">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.638527989670027" />
+        </attvalues>
+      </node>
+      <node id="Akron" label="Akron">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.856540940357192" />
+        </attvalues>
+      </node>
+      <node id="VirginiaTech" label="VirginiaTech">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="-3.730014652474482" />
+        </attvalues>
+      </node>
+      <node id="Alabama" label="Alabama">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.4194946573375886" />
+        </attvalues>
+      </node>
+      <node id="UCLA" label="UCLA">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-3.1066441982844726" />
+        </attvalues>
+      </node>
+      <node id="Arizona" label="Arizona">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-3.485619779162612" />
+        </attvalues>
+      </node>
+      <node id="Utah" label="Utah">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="-2.7501440771696832" />
+        </attvalues>
+      </node>
+      <node id="ArkansasState" label="ArkansasState">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="-2.5014526234722267" />
+        </attvalues>
+      </node>
+      <node id="NorthCarolinaState" label="NorthCarolinaState">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-3.0715628726378004" />
+        </attvalues>
+      </node>
+      <node id="BallState" label="BallState">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.1780979734820094" />
+        </attvalues>
+      </node>
+      <node id="Florida" label="Florida">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.7887267014259574" />
+        </attvalues>
+      </node>
+      <node id="BoiseState" label="BoiseState">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-2.3181431071015" />
+        </attvalues>
+      </node>
+      <node id="BostonCollege" label="BostonCollege">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="-4.169316273135568" />
+        </attvalues>
+      </node>
+      <node id="WestVirginia" label="WestVirginia">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="-3.021557018945376" />
+        </attvalues>
+      </node>
+      <node id="BowlingGreenState" label="BowlingGreenState">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.4588581030398298" />
+        </attvalues>
+      </node>
+      <node id="Michigan" label="Michigan">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.341575355119481" />
+          <attvalue for="2" value="{'OhioState': {'value': 2, 'ricciCurvature': -35.047237202830274, 'label': 'OhioState'}}" />
+        </attvalues>
+      </node>
+      <node id="Virginia" label="Virginia">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-3.8321507930310483" />
+        </attvalues>
+      </node>
+      <node id="Buffalo" label="Buffalo">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.5826868269594" />
+        </attvalues>
+      </node>
+      <node id="Syracuse" label="Syracuse">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="-2.8494663384544263" />
+        </attvalues>
+      </node>
+      <node id="CentralFlorida" label="CentralFlorida">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="-0.9668973038386168" />
+        </attvalues>
+      </node>
+      <node id="GeorgiaTech" label="GeorgiaTech">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-3.6480706101563993" />
+        </attvalues>
+      </node>
+      <node id="CentralMichigan" label="CentralMichigan">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.045173099704013" />
+        </attvalues>
+      </node>
+      <node id="Purdue" label="Purdue">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.567589645884371" />
+        </attvalues>
+      </node>
+      <node id="Colorado" label="Colorado">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.243571411410955" />
+        </attvalues>
+      </node>
+      <node id="ColoradoState" label="ColoradoState">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="-3.4235994619790824" />
+        </attvalues>
+      </node>
+      <node id="Connecticut" label="Connecticut">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="-1.5146144160006847" />
+        </attvalues>
+      </node>
+      <node id="EasternMichigan" label="EasternMichigan">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.3319188759369514" />
+        </attvalues>
+      </node>
+      <node id="EastCarolina" label="EastCarolina">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-2.311305377014149" />
+        </attvalues>
+      </node>
+      <node id="Duke" label="Duke">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-3.5069398142767194" />
+        </attvalues>
+      </node>
+      <node id="FresnoState" label="FresnoState">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-3.9236703455453887" />
+        </attvalues>
+      </node>
+      <node id="Houston" label="Houston">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-2.318947898659766" />
+        </attvalues>
+      </node>
+      <node id="Rice" label="Rice">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-3.615356575353732" />
+        </attvalues>
+      </node>
+      <node id="Idaho" label="Idaho">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="-2.108982368800336" />
+        </attvalues>
+      </node>
+      <node id="Washington" label="Washington">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-3.8800569119567756" />
+        </attvalues>
+      </node>
+      <node id="Kansas" label="Kansas">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.7233338209680764" />
+        </attvalues>
+      </node>
+      <node id="SouthernMethodist" label="SouthernMethodist">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-3.3732516028989803" />
+        </attvalues>
+      </node>
+      <node id="Kent" label="Kent">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.604227964495022" />
+        </attvalues>
+      </node>
+      <node id="Pittsburgh" label="Pittsburgh">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="-3.569992258742043" />
+        </attvalues>
+      </node>
+      <node id="Kentucky" label="Kentucky">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.6180749549595435" />
+        </attvalues>
+      </node>
+      <node id="Louisville" label="Louisville">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-2.665383316911522" />
+        </attvalues>
+      </node>
+      <node id="LouisianaTech" label="LouisianaTech">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-0.7932642308304496" />
+        </attvalues>
+      </node>
+      <node id="LouisianaMonroe" label="LouisianaMonroe">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="-0.537033167231612" />
+          <attvalue for="2" value="{'MiddleTennesseeState': {'value': 10, 'ricciCurvature': -205.89683218350243, 'label': 'MiddleTennesseeState'}}" />
+        </attvalues>
+      </node>
+      <node id="Minnesota" label="Minnesota">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.7858343927237006" />
+        </attvalues>
+      </node>
+      <node id="MiamiOhio" label="MiamiOhio">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.075222430616467" />
+        </attvalues>
+      </node>
+      <node id="Vanderbilt" label="Vanderbilt">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.725856334566581" />
+        </attvalues>
+      </node>
+      <node id="Illinois" label="Illinois">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.5039727239058895" />
+        </attvalues>
+      </node>
+      <node id="MississippiState" label="MississippiState">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.6710711388836264" />
+        </attvalues>
+      </node>
+      <node id="Memphis" label="Memphis">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-2.6751728980124407" />
+        </attvalues>
+      </node>
+      <node id="Nevada" label="Nevada">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-2.780675053420751" />
+        </attvalues>
+      </node>
+      <node id="Oregon" label="Oregon">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-10.892982146153024" />
+        </attvalues>
+      </node>
+      <node id="NewMexicoState" label="NewMexicoState">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="-2.316806256928817" />
+        </attvalues>
+      </node>
+      <node id="SouthCarolina" label="SouthCarolina">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.679303106249243" />
+        </attvalues>
+      </node>
+      <node id="Ohio" label="Ohio">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.313624326366508" />
+        </attvalues>
+      </node>
+      <node id="IowaState" label="IowaState">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.5384726173279684" />
+        </attvalues>
+      </node>
+      <node id="SanJoseState" label="SanJoseState">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-3.9469418853618135" />
+        </attvalues>
+      </node>
+      <node id="Nebraska" label="Nebraska">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.5439479630257753" />
+        </attvalues>
+      </node>
+      <node id="SouthernMississippi" label="SouthernMississippi">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-3.2949302030079877" />
+        </attvalues>
+      </node>
+      <node id="Tennessee" label="Tennessee">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.570571246287704" />
+        </attvalues>
+      </node>
+      <node id="Stanford" label="Stanford">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-5.436719075810972" />
+        </attvalues>
+      </node>
+      <node id="WashingtonState" label="WashingtonState">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-27.720872891243413" />
+        </attvalues>
+      </node>
+      <node id="Temple" label="Temple">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="-4.543775456300842" />
+        </attvalues>
+      </node>
+      <node id="Navy" label="Navy">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="-1.2273621928063168" />
+        </attvalues>
+      </node>
+      <node id="TexasA&amp;M" label="TexasA&amp;M">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.4893724985140797" />
+        </attvalues>
+      </node>
+      <node id="NotreDame" label="NotreDame">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="-1.033110499076666" />
+        </attvalues>
+      </node>
+      <node id="TexasElPaso" label="TexasElPaso">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-3.4831928944185293" />
+        </attvalues>
+      </node>
+      <node id="Oklahoma" label="Oklahoma">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.525995235678217" />
+        </attvalues>
+      </node>
+      <node id="Toledo" label="Toledo">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.258025193477158" />
+        </attvalues>
+      </node>
+      <node id="Tulane" label="Tulane">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-2.657994478968911" />
+        </attvalues>
+      </node>
+      <node id="Mississippi" label="Mississippi">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.621613437452625" />
+        </attvalues>
+      </node>
+      <node id="Tulsa" label="Tulsa">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-3.3715613168094127" />
+        </attvalues>
+      </node>
+      <node id="NorthCarolina" label="NorthCarolina">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-3.1884102487035517" />
+        </attvalues>
+      </node>
+      <node id="UtahState" label="UtahState">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="-2.311104783368" />
+        </attvalues>
+      </node>
+      <node id="Army" label="Army">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-2.4344408572107286" />
+        </attvalues>
+      </node>
+      <node id="Cincinnati" label="Cincinnati">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-2.264823619247781" />
+        </attvalues>
+      </node>
+      <node id="AirForce" label="AirForce">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="-2.5714791094134344" />
+        </attvalues>
+      </node>
+      <node id="Rutgers" label="Rutgers">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="-4.6419288023083976" />
+        </attvalues>
+      </node>
+      <node id="Georgia" label="Georgia">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.7819650182051645" />
+        </attvalues>
+      </node>
+      <node id="LouisianaState" label="LouisianaState">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.986656599134997" />
+        </attvalues>
+      </node>
+      <node id="LouisianaLafayette" label="LouisianaLafayette">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="-1.007976153947608" />
+        </attvalues>
+      </node>
+      <node id="Texas" label="Texas">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.509005406453854" />
+        </attvalues>
+      </node>
+      <node id="Marshall" label="Marshall">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="-2.504397473622258" />
+        </attvalues>
+      </node>
+      <node id="MichiganState" label="MichiganState">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.786338521517021" />
+        </attvalues>
+      </node>
+      <node id="MiamiFlorida" label="MiamiFlorida">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="-2.6242237134047093" />
+        </attvalues>
+      </node>
+      <node id="Missouri" label="Missouri">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.7781494259293944" />
+        </attvalues>
+      </node>
+      <node id="Clemson" label="Clemson">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-3.1876198266637807" />
+        </attvalues>
+      </node>
+      <node id="NevadaLasVegas" label="NevadaLasVegas">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="-2.6932866897700163" />
+        </attvalues>
+      </node>
+      <node id="WakeForest" label="WakeForest">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-4.25709923022099" />
+        </attvalues>
+      </node>
+      <node id="Indiana" label="Indiana">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="-2.5129131055739524" />
+        </attvalues>
+      </node>
+      <node id="OklahomaState" label="OklahomaState">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="-2.77615667547588" />
+        </attvalues>
+      </node>
+      <node id="OregonState" label="OregonState">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-3.635637660319113" />
+        </attvalues>
+      </node>
+      <node id="Maryland" label="Maryland">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="-3.4135414042064296" />
+        </attvalues>
+      </node>
+      <node id="TexasChristian" label="TexasChristian">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-3.348938013852494" />
+        </attvalues>
+      </node>
+      <node id="California" label="California">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="-10.816557380708788" />
+        </attvalues>
+      </node>
+      <node id="AlabamaBirmingham" label="AlabamaBirmingham">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="-2.809742880389945" />
+        </attvalues>
+      </node>
+      <node id="Arkansas" label="Arkansas">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="-2.9004077947484714" />
+        </attvalues>
+      </node>
+      <node id="Hawaii" label="Hawaii">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="-3.3903966758819806" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="BrighamYoung" target="FloridaState" id="0" weight="2.8151378713112725">
+        <attvalues>
+          <attvalue for="3" value="0.42545532821199694" />
+          <attvalue for="4" value="-0.4601628707704106" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="NewMexico" id="1" weight="0.31924777752689243">
+        <attvalues>
+          <attvalue for="3" value="-3.890996605152502" />
+          <attvalue for="4" value="0.07056562807440203" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="SanDiegoState" id="2" weight="0.38114496012162913">
+        <attvalues>
+          <attvalue for="3" value="-3.672422214462274" />
+          <attvalue for="4" value="0.0705399594497913" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="Wyoming" id="3" weight="0.22969536950423924">
+        <attvalues>
+          <attvalue for="3" value="-4.40588325309222" />
+          <attvalue for="4" value="0.07438873488006925" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="Utah" id="4" weight="0.39101114401049697">
+        <attvalues>
+          <attvalue for="3" value="-3.553847269347165" />
+          <attvalue for="4" value="0.07405041829915437" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="Virginia" id="5" weight="2.785025808484267">
+        <attvalues>
+          <attvalue for="3" value="0.44180614310651645" />
+          <attvalue for="4" value="-0.47528731095872834" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="Syracuse" id="6" weight="3.356020997396542">
+        <attvalues>
+          <attvalue for="3" value="0.2743748636603931" />
+          <attvalue for="4" value="-0.5347573474680685" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="ColoradoState" id="7" weight="0.3907652565640496">
+        <attvalues>
+          <attvalue for="3" value="-4.316798980148255" />
+          <attvalue for="4" value="0.0661404105625506" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="MississippiState" id="8" weight="3.062468026508458">
+        <attvalues>
+          <attvalue for="3" value="0.27940579048587433" />
+          <attvalue for="4" value="-0.3833107814455008" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="UtahState" id="9" weight="1.9185371130601117">
+        <attvalues>
+          <attvalue for="3" value="-0.11194537290296358" />
+          <attvalue for="4" value="-0.1431673468118837" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="AirForce" id="10" weight="0.14752496229770498">
+        <attvalues>
+          <attvalue for="3" value="-5.230004841502983" />
+          <attvalue for="4" value="0.1320098459936151" />
+        </attvalues>
+      </edge>
+      <edge source="BrighamYoung" target="NevadaLasVegas" id="11" weight="0.22486866774956252">
+        <attvalues>
+          <attvalue for="3" value="-4.548962242326461" />
+          <attvalue for="4" value="0.07897989785679682" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="NorthCarolinaState" id="12" weight="0.2884415892293129">
+        <attvalues>
+          <attvalue for="3" value="-4.346535368449555" />
+          <attvalue for="4" value="0.1967554178408064" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="Florida" id="13" weight="2.563877924374117">
+        <attvalues>
+          <attvalue for="3" value="0.1571566673632765" />
+          <attvalue for="4" value="-0.22213841657409628" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="Virginia" id="14" weight="0.10057479550348826">
+        <attvalues>
+          <attvalue for="3" value="-6.445614098403475" />
+          <attvalue for="4" value="0.34075421595955846" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="GeorgiaTech" id="15" weight="0.20299039734794003">
+        <attvalues>
+          <attvalue for="3" value="-4.934840510583091" />
+          <attvalue for="4" value="0.25103036435488346" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="Duke" id="16" weight="0.12511881916595383">
+        <attvalues>
+          <attvalue for="3" value="-5.878482371305953" />
+          <attvalue for="4" value="0.2485893759355977" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="Louisville" id="17" weight="2.8044364928906576">
+        <attvalues>
+          <attvalue for="3" value="0.2773699317113545" />
+          <attvalue for="4" value="-0.38636423623255345" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="NorthCarolina" id="18" weight="0.24651221338459214">
+        <attvalues>
+          <attvalue for="3" value="-4.323242687482018" />
+          <attvalue for="4" value="0.165034338376553" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="MiamiFlorida" id="19" weight="2.127879300721821">
+        <attvalues>
+          <attvalue for="3" value="0.10378979732930649" />
+          <attvalue for="4" value="-0.2521251256404553" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="Clemson" id="20" weight="0.21915279922001288">
+        <attvalues>
+          <attvalue for="3" value="-4.362679243170733" />
+          <attvalue for="4" value="0.2158740124010129" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="WakeForest" id="21" weight="0.11547739961172548">
+        <attvalues>
+          <attvalue for="3" value="-6.014442559406402" />
+          <attvalue for="4" value="0.26570472418899316" />
+        </attvalues>
+      </edge>
+      <edge source="FloridaState" target="Maryland" id="22" weight="0.16993641786446">
+        <attvalues>
+          <attvalue for="3" value="-4.881940367051751" />
+          <attvalue for="4" value="0.29765100026991276" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="KansasState" id="23" weight="2.85262587793461">
+        <attvalues>
+          <attvalue for="3" value="0.41303955952503546" />
+          <attvalue for="4" value="-0.2921858642111794" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="PennState" id="24" weight="0.32451185709158553">
+        <attvalues>
+          <attvalue for="3" value="-3.506629057957186" />
+          <attvalue for="4" value="0.15912558697804613" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="Northwestern" id="25" weight="0.275039313277927">
+        <attvalues>
+          <attvalue for="3" value="-3.619908487670723" />
+          <attvalue for="4" value="0.11200987148900621" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="WesternMichigan" id="26" weight="2.3746574662108784">
+        <attvalues>
+          <attvalue for="3" value="0.16676302625372685" />
+          <attvalue for="4" value="-0.10143163791514453" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="Wisconsin" id="27" weight="0.2738825176267175">
+        <attvalues>
+          <attvalue for="3" value="-3.7771199666156487" />
+          <attvalue for="4" value="0.11777517872697474" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="Minnesota" id="29" weight="0.11842265210100922">
+        <attvalues>
+          <attvalue for="3" value="-4.820950368722375" />
+          <attvalue for="4" value="0.25935754458689875" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="Illinois" id="30" weight="0.35424059427499915">
+        <attvalues>
+          <attvalue for="3" value="-3.4972951974858253" />
+          <attvalue for="4" value="0.11469400310543465" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="IowaState" id="31" weight="2.7880409977427627">
+        <attvalues>
+          <attvalue for="3" value="0.4766901738822218" />
+          <attvalue for="4" value="-0.22095222752785126" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="Nebraska" id="32" weight="2.8571641535979158">
+        <attvalues>
+          <attvalue for="3" value="0.4064693915340427" />
+          <attvalue for="4" value="-0.26302915165842977" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="MichiganState" id="33" weight="0.19403728215261903">
+        <attvalues>
+          <attvalue for="3" value="-3.8259616198050264" />
+          <attvalue for="4" value="0.24722482904463494" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="Indiana" id="34" weight="0.441992824823234">
+        <attvalues>
+          <attvalue for="3" value="-3.34539644278564" />
+          <attvalue for="4" value="0.031702807261305144" />
+        </attvalues>
+      </edge>
+      <edge source="Iowa" target="Michigan" id="28" weight="0.26646763761606324">
+        <attvalues>
+          <attvalue for="3" value="-3.7657977462387144" />
+          <attvalue for="4" value="0.08127150846141173" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="TexasTech" id="35" weight="0.2509296924510069">
+        <attvalues>
+          <attvalue for="3" value="-3.5318743619878177" />
+          <attvalue for="4" value="0.12084074876839779" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="NorthTexas" id="36" weight="2.437591012955901">
+        <attvalues>
+          <attvalue for="3" value="0.23576659516315512" />
+          <attvalue for="4" value="-0.13166023566060425" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="BallState" id="37" weight="3.9427111022827224">
+        <attvalues>
+          <attvalue for="3" value="0.41686385993337105" />
+          <attvalue for="4" value="-0.5918384945586643" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="Colorado" id="38" weight="0.43504600943764515">
+        <attvalues>
+          <attvalue for="3" value="-3.190456496969058" />
+          <attvalue for="4" value="0.105660244728357" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="Kansas" id="39" weight="0.341312605741912">
+        <attvalues>
+          <attvalue for="3" value="-3.3980201658735494" />
+          <attvalue for="4" value="0.16543767343264204" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="LouisianaTech" id="40" weight="2.973665455205652">
+        <attvalues>
+          <attvalue for="3" value="0.30368873904357396" />
+          <attvalue for="4" value="-0.3283954982677364" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="IowaState" id="41" weight="0.1369690387351343">
+        <attvalues>
+          <attvalue for="3" value="-4.360247982007149" />
+          <attvalue for="4" value="0.24779850477977539" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="Nebraska" id="42" weight="0.24152939626533362">
+        <attvalues>
+          <attvalue for="3" value="-3.8136713521340715" />
+          <attvalue for="4" value="0.2822801048098117" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="TexasA&amp;M" id="43" weight="0.3294369485404597">
+        <attvalues>
+          <attvalue for="3" value="-3.393451762758544" />
+          <attvalue for="4" value="0.11899117268623649" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="Oklahoma" id="44" weight="0.34672504620200895">
+        <attvalues>
+          <attvalue for="3" value="-3.27023536576287" />
+          <attvalue for="4" value="0.07806532720604953" />
+        </attvalues>
+      </edge>
+      <edge source="KansasState" target="Missouri" id="45" weight="0.26526580860258814">
+        <attvalues>
+          <attvalue for="3" value="-3.5651514990713116" />
+          <attvalue for="4" value="0.1234202012039739" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="TexasTech" id="46" weight="2.684483437323336">
+        <attvalues>
+          <attvalue for="3" value="0.301190182691333" />
+          <attvalue for="4" value="-0.3500499391709906" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="SanDiegoState" id="47" weight="0.18961023789132334">
+        <attvalues>
+          <attvalue for="3" value="-4.599549672174528" />
+          <attvalue for="4" value="0.2145235067291914" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="Wyoming" id="48" weight="0.25808289990539657">
+        <attvalues>
+          <attvalue for="3" value="-3.998631193460021" />
+          <attvalue for="4" value="0.25732811840390846" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="Utah" id="49" weight="0.11895316362444967">
+        <attvalues>
+          <attvalue for="3" value="-5.661953663428823" />
+          <attvalue for="4" value="0.2676336375673918" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="BoiseState" id="50" weight="1.83878185947467">
+        <attvalues>
+          <attvalue for="3" value="0.01852842911297725" />
+          <attvalue for="4" value="-0.1566932843708213" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="ColoradoState" id="51" weight="0.07273381497393601">
+        <attvalues>
+          <attvalue for="3" value="-7.835329464886209" />
+          <attvalue for="4" value="0.1864845174782177" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="NewMexicoState" id="52" weight="1.869819002237464">
+        <attvalues>
+          <attvalue for="3" value="-0.034120269665586456" />
+          <attvalue for="4" value="-0.1864736331736474" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="AirForce" id="53" weight="0.3854996260908589">
+        <attvalues>
+          <attvalue for="3" value="-3.5838289240603407" />
+          <attvalue for="4" value="0.18512534874321562" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="NevadaLasVegas" id="54" weight="0.13536400220632433">
+        <attvalues>
+          <attvalue for="3" value="-5.3795807941862" />
+          <attvalue for="4" value="0.1621093607074271" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexico" target="OregonState" id="55" weight="1.939111421158405">
+        <attvalues>
+          <attvalue for="3" value="0.2588105887030795" />
+          <attvalue for="4" value="-0.19936041635148483" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="Baylor" id="56" weight="0.19053000995639702">
+        <attvalues>
+          <attvalue for="3" value="-3.9391995000127737" />
+          <attvalue for="4" value="0.214534556170082" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="NorthTexas" id="57" weight="2.1578117804997765">
+        <attvalues>
+          <attvalue for="3" value="0.6086050732866696" />
+          <attvalue for="4" value="0.014093055434503898" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="Kansas" id="58" weight="0.27942648960343686">
+        <attvalues>
+          <attvalue for="3" value="-3.3415590558260817" />
+          <attvalue for="4" value="0.09065818842422879" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="Nebraska" id="59" weight="0.36987012956923043">
+        <attvalues>
+          <attvalue for="3" value="-3.339106813504473" />
+          <attvalue for="4" value="0.033702485564014784" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="TexasA&amp;M" id="60" weight="0.27130408625107394">
+        <attvalues>
+          <attvalue for="3" value="-3.674475950792691" />
+          <attvalue for="4" value="0.1722773139982614" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="Oklahoma" id="61" weight="0.19139555251186052">
+        <attvalues>
+          <attvalue for="3" value="-3.967955180918743" />
+          <attvalue for="4" value="0.22155209696746214" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="UtahState" id="62" weight="2.3853572729097454">
+        <attvalues>
+          <attvalue for="3" value="0.2831555282373551" />
+          <attvalue for="4" value="-0.23865309491520836" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="LouisianaLafayette" id="63" weight="2.8793203855359937">
+        <attvalues>
+          <attvalue for="3" value="0.3903898935052512" />
+          <attvalue for="4" value="-0.16745262946273298" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="Texas" id="64" weight="0.1921752059855958">
+        <attvalues>
+          <attvalue for="3" value="-3.8462423473934626" />
+          <attvalue for="4" value="0.17264264657867456" />
+        </attvalues>
+      </edge>
+      <edge source="TexasTech" target="OklahomaState" id="65" weight="0.2780417371207183">
+        <attvalues>
+          <attvalue for="3" value="-3.377039062518816" />
+          <attvalue for="4" value="0.09010285142007601" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="SouthernCalifornia" id="66" weight="2.7014145817748245">
+        <attvalues>
+          <attvalue for="3" value="0.20912260201708033" />
+          <attvalue for="4" value="-0.3395700446816048" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="Michigan" id="67" weight="0.18982249023917175">
+        <attvalues>
+          <attvalue for="3" value="-4.1550147902069865" />
+          <attvalue for="4" value="0.20589014787562598" />
+          <attvalue for="5" value="{('OhioState', 'PennState'): {'ricciCurvature': -7.157322004875724, 'original_RC': 0.20205385623194783, 'id': '69', 'weight': 0.13087742370326508}}" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="Purdue" id="68" weight="0.20485277518110773">
+        <attvalues>
+          <attvalue for="3" value="-4.016793762704336" />
+          <attvalue for="4" value="0.23999397373689202" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="Pittsburgh" id="70" weight="3.3194291051233082">
+        <attvalues>
+          <attvalue for="3" value="0.38313438395438015" />
+          <attvalue for="4" value="-0.4017370352041123" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="LouisianaTech" id="71" weight="2.7888251778516246">
+        <attvalues>
+          <attvalue for="3" value="0.2774413834684718" />
+          <attvalue for="4" value="-0.316806433018473" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="Minnesota" id="72" weight="0.20863721374990135">
+        <attvalues>
+          <attvalue for="3" value="-4.097262747979005" />
+          <attvalue for="4" value="0.11914618541304767" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="Illinois" id="73" weight="0.18752023346341362">
+        <attvalues>
+          <attvalue for="3" value="-4.21930578255895" />
+          <attvalue for="4" value="0.19862080256137782" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="Toledo" id="74" weight="2.336157665771834">
+        <attvalues>
+          <attvalue for="3" value="0.20991659909237192" />
+          <attvalue for="4" value="-0.19626693460147226" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="MichiganState" id="75" weight="0.16731850106077611">
+        <attvalues>
+          <attvalue for="3" value="-4.448973549158217" />
+          <attvalue for="4" value="0.1991649009644716" />
+        </attvalues>
+      </edge>
+      <edge source="PennState" target="Indiana" id="76" weight="0.3336081293946773">
+        <attvalues>
+          <attvalue for="3" value="-3.545196067569557" />
+          <attvalue for="4" value="0.031107722612291555" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="ArizonaState" id="77" weight="0.31600547237965804">
+        <attvalues>
+          <attvalue for="3" value="-4.251545227826121" />
+          <attvalue for="4" value="0.16848985210488743" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="UCLA" id="78" weight="0.2605124799130566">
+        <attvalues>
+          <attvalue for="3" value="-3.9997595480998838" />
+          <attvalue for="4" value="0.23302683735488772" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="Arizona" id="79" weight="0.21915268606113972">
+        <attvalues>
+          <attvalue for="3" value="-4.038915165529263" />
+          <attvalue for="4" value="0.24506032406320588" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="Colorado" id="80" weight="3.167013394856976">
+        <attvalues>
+          <attvalue for="3" value="0.38937796224071375" />
+          <attvalue for="4" value="-0.35303327108282634" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="Oregon" id="81" weight="0.16133113295279608">
+        <attvalues>
+          <attvalue for="3" value="-4.883576313682967" />
+          <attvalue for="4" value="0.2302945489059518" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="SanJoseState" id="82" weight="2.2888586226233336">
+        <attvalues>
+          <attvalue for="3" value="0.3050586766836485" />
+          <attvalue for="4" value="-0.30691241767044497" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="Stanford" id="83" weight="0.017558412259539007">
+        <attvalues>
+          <attvalue for="3" value="-20.477746445699903" />
+          <attvalue for="4" value="0.36886160064946916" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="WashingtonState" id="84" weight="0.33024746391051313">
+        <attvalues>
+          <attvalue for="3" value="-4.508647995570701" />
+          <attvalue for="4" value="0.11934505324399969" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="NotreDame" id="85" weight="3.3498518089532188">
+        <attvalues>
+          <attvalue for="3" value="0.4854326157340091" />
+          <attvalue for="4" value="-0.30330665404322543" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="OregonState" id="86" weight="0.30593141245724464">
+        <attvalues>
+          <attvalue for="3" value="-3.622423610786078" />
+          <attvalue for="4" value="0.21514034639997348" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernCalifornia" target="California" id="87" weight="0.15402933435898428">
+        <attvalues>
+          <attvalue for="3" value="-4.687613087500407" />
+          <attvalue for="4" value="0.29398146294365035" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="SanDiegoState" id="88" weight="1.8517000167871431">
+        <attvalues>
+          <attvalue for="3" value="0.41387239889697014" />
+          <attvalue for="4" value="-0.04776005705708286" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="UCLA" id="89" weight="0.2993483540447886">
+        <attvalues>
+          <attvalue for="3" value="-3.6832247048032762" />
+          <attvalue for="4" value="0.162516141577417" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="Arizona" id="90" weight="0.15936863099682705">
+        <attvalues>
+          <attvalue for="3" value="-4.53218300238373" />
+          <attvalue for="4" value="0.3105664450166653" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="ColoradoState" id="91" weight="1.9663804879397577">
+        <attvalues>
+          <attvalue for="3" value="0.24722688679102778" />
+          <attvalue for="4" value="-0.09782088076055562" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="Washington" id="92" weight="0.2297999025588562">
+        <attvalues>
+          <attvalue for="3" value="-4.111320631808405" />
+          <attvalue for="4" value="0.27163977585615695" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="Oregon" id="93" weight="0.18790261091542043">
+        <attvalues>
+          <attvalue for="3" value="-4.2131391172048405" />
+          <attvalue for="4" value="0.2716661818971292" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="Stanford" id="94" weight="0.28613349094148866">
+        <attvalues>
+          <attvalue for="3" value="-4.099032571478041" />
+          <attvalue for="4" value="0.21349584062888527" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="WashingtonState" id="95" weight="0.0011573865566706044">
+        <attvalues>
+          <attvalue for="3" value="-270.3266825143163" />
+          <attvalue for="4" value="0.3085498178339079" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="UtahState" id="96" weight="2.0819331699828556">
+        <attvalues>
+          <attvalue for="3" value="0.3456283573662221" />
+          <attvalue for="4" value="-0.2479686351464616" />
+        </attvalues>
+      </edge>
+      <edge source="ArizonaState" target="California" id="97" weight="0.20088970281473745">
+        <attvalues>
+          <attvalue for="3" value="-4.405574151902607" />
+          <attvalue for="4" value="0.3024693667791467" />
+        </attvalues>
+      </edge>
+      <edge source="SanDiegoState" target="Wyoming" id="98" weight="0.32175233638939554">
+        <attvalues>
+          <attvalue for="3" value="-3.8585757642478455" />
+          <attvalue for="4" value="0.04162589414346063" />
+        </attvalues>
+      </edge>
+      <edge source="SanDiegoState" target="Arizona" id="99" weight="1.7530838467001386">
+        <attvalues>
+          <attvalue for="3" value="0.5786754351797541" />
+          <attvalue for="4" value="-0.09240898300499012" />
+        </attvalues>
+      </edge>
+      <edge source="SanDiegoState" target="Utah" id="100" weight="0.09430631085181232">
+        <attvalues>
+          <attvalue for="3" value="-6.0824561908485375" />
+          <attvalue for="4" value="0.3995908049915643" />
+        </attvalues>
+      </edge>
+      <edge source="SanDiegoState" target="ColoradoState" id="101" weight="0.16875352837338242">
+        <attvalues>
+          <attvalue for="3" value="-4.720440442509462" />
+          <attvalue for="4" value="0.26400998341768056" />
+        </attvalues>
+      </edge>
+      <edge source="SanDiegoState" target="Illinois" id="102" weight="3.2863290367332816">
+        <attvalues>
+          <attvalue for="3" value="0.36109120239567893" />
+          <attvalue for="4" value="-0.4193633002441348" />
+        </attvalues>
+      </edge>
+      <edge source="SanDiegoState" target="AirForce" id="103" weight="0.3782136352859387">
+        <attvalues>
+          <attvalue for="3" value="-3.5910096348157587" />
+          <attvalue for="4" value="0.09913029012391306" />
+        </attvalues>
+      </edge>
+      <edge source="SanDiegoState" target="NevadaLasVegas" id="104" weight="0.3035071121318173">
+        <attvalues>
+          <attvalue for="3" value="-4.1212466802590075" />
+          <attvalue for="4" value="0.06809858582546924" />
+        </attvalues>
+      </edge>
+      <edge source="SanDiegoState" target="OregonState" id="105" weight="1.7963317293542225">
+        <attvalues>
+          <attvalue for="3" value="0.48685547692671427" />
+          <attvalue for="4" value="-0.10098565959214101" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="NorthTexas" id="106" weight="2.38433124456614">
+        <attvalues>
+          <attvalue for="3" value="0.30281617269395733" />
+          <attvalue for="4" value="-0.15187898923413568" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="Minnesota" id="107" weight="2.99361988296258">
+        <attvalues>
+          <attvalue for="3" value="0.2889948539707434" />
+          <attvalue for="4" value="-0.4780376298866371" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="IowaState" id="108" weight="0.1924666846521352">
+        <attvalues>
+          <attvalue for="3" value="-3.566379469329613" />
+          <attvalue for="4" value="0.2385718364654268" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="Nebraska" id="109" weight="0.2536518051399223">
+        <attvalues>
+          <attvalue for="3" value="-3.5071205611084766" />
+          <attvalue for="4" value="0.22044211323889984" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="TexasA&amp;M" id="110" weight="0.3031238771745054">
+        <attvalues>
+          <attvalue for="3" value="-3.3275621076699577" />
+          <attvalue for="4" value="0.18474963197948502" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="Oklahoma" id="111" weight="0.1751902965624901">
+        <attvalues>
+          <attvalue for="3" value="-3.8535061411996576" />
+          <attvalue for="4" value="0.18447206759779922" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="Texas" id="112" weight="0.31853382521865536">
+        <attvalues>
+          <attvalue for="3" value="-3.456596457514917" />
+          <attvalue for="4" value="0.1754173443836381" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="Missouri" id="113" weight="0.18599818610855282">
+        <attvalues>
+          <attvalue for="3" value="-3.7212802161169938" />
+          <attvalue for="4" value="0.145697911032018" />
+        </attvalues>
+      </edge>
+      <edge source="Baylor" target="OklahomaState" id="114" weight="0.30314717513201334">
+        <attvalues>
+          <attvalue for="3" value="-3.414092551877803" />
+          <attvalue for="4" value="0.23897675447787092" />
+        </attvalues>
+      </edge>
+      <edge source="NorthTexas" target="ArkansasState" id="115" weight="0.21743826838824282">
+        <attvalues>
+          <attvalue for="3" value="-4.590876853584534" />
+          <attvalue for="4" value="0.04441011513209281" />
+        </attvalues>
+      </edge>
+      <edge source="NorthTexas" target="BoiseState" id="116" weight="0.2900766682707379">
+        <attvalues>
+          <attvalue for="3" value="-4.162704947950265" />
+          <attvalue for="4" value="0.08486329836952944" />
+        </attvalues>
+      </edge>
+      <edge source="NorthTexas" target="Idaho" id="117" weight="0.36268799491882536">
+        <attvalues>
+          <attvalue for="3" value="-3.8583143758855254" />
+          <attvalue for="4" value="-0.06193997498046677" />
+        </attvalues>
+      </edge>
+      <edge source="NorthTexas" target="NewMexicoState" id="118" weight="0.23564079485273318">
+        <attvalues>
+          <attvalue for="3" value="-4.489184325397874" />
+          <attvalue for="4" value="0.020321873910627564" />
+        </attvalues>
+      </edge>
+      <edge source="NorthTexas" target="UtahState" id="119" weight="0.20165183985184795">
+        <attvalues>
+          <attvalue for="3" value="-4.580362418053684" />
+          <attvalue for="4" value="0.0935729975872911" />
+        </attvalues>
+      </edge>
+      <edge source="NorthTexas" target="LouisianaLafayette" id="120" weight="2.9506399311368137">
+        <attvalues>
+          <attvalue for="3" value="0.3973648811421686" />
+          <attvalue for="4" value="-0.1919901899547023" />
+        </attvalues>
+      </edge>
+      <edge source="NorthTexas" target="NevadaLasVegas" id="121" weight="1.7772413059223695">
+        <attvalues>
+          <attvalue for="3" value="0.11329348935284844" />
+          <attvalue for="4" value="-0.20289527944385322" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="Northwestern" id="122" weight="2.460351329822093">
+        <attvalues>
+          <attvalue for="3" value="0.10903666422393965" />
+          <attvalue for="4" value="-0.3416323774096579" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="WesternMichigan" id="123" weight="0.2725795506770461">
+        <attvalues>
+          <attvalue for="3" value="-2.904082802972786" />
+          <attvalue for="4" value="0.13956390077507297" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="Auburn" id="124" weight="3.3661708764883334">
+        <attvalues>
+          <attvalue for="3" value="0.33131552356083893" />
+          <attvalue for="4" value="-0.38204269006711034" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="Akron" id="125" weight="0.456204017270611">
+        <attvalues>
+          <attvalue for="3" value="-2.46666518504837" />
+          <attvalue for="4" value="0.08592688701792683" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="BallState" id="126" weight="0.20842639685723446">
+        <attvalues>
+          <attvalue for="3" value="-2.92511539578292" />
+          <attvalue for="4" value="0.23964264820473336" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="Buffalo" id="127" weight="0.5012267467229377">
+        <attvalues>
+          <attvalue for="3" value="-2.4751793808488745" />
+          <attvalue for="4" value="-0.010552898251359188" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="CentralFlorida" id="128" weight="0.27038701631527173">
+        <attvalues>
+          <attvalue for="3" value="-3.3796256537650784" />
+          <attvalue for="4" value="-0.11479255758047446" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="CentralMichigan" id="129" weight="0.2920010032280236">
+        <attvalues>
+          <attvalue for="3" value="-3.084626587418457" />
+          <attvalue for="4" value="0.22128396737782707" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="EasternMichigan" id="130" weight="0.16977038671851089">
+        <attvalues>
+          <attvalue for="3" value="-3.1473570218304747" />
+          <attvalue for="4" value="0.1740454334616668" />
+        </attvalues>
+      </edge>
+      <edge source="NorthernIllinois" target="Toledo" id="131" weight="0.3023392483154342">
+        <attvalues>
+          <attvalue for="3" value="-2.946430589632582" />
+          <attvalue for="4" value="0.15982021291685466" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="Wisconsin" id="132" weight="0.18384280196947594">
+        <attvalues>
+          <attvalue for="3" value="-4.18655944976619" />
+          <attvalue for="4" value="0.2064134732904317" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="Michigan" id="133" weight="0.19522538297250275">
+        <attvalues>
+          <attvalue for="3" value="-4.114893881583304" />
+          <attvalue for="4" value="0.17352069519468505" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="Purdue" id="134" weight="0.2530827539595811">
+        <attvalues>
+          <attvalue for="3" value="-3.7704085045138775" />
+          <attvalue for="4" value="0.17095060172021448" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="Duke" id="135" weight="3.175891534340655">
+        <attvalues>
+          <attvalue for="3" value="0.28409941346719947" />
+          <attvalue for="4" value="-0.5470203463750893" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="Minnesota" id="136" weight="0.20118007536836446">
+        <attvalues>
+          <attvalue for="3" value="-4.029644326658058" />
+          <attvalue for="4" value="0.08398139269663718" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="Illinois" id="137" weight="0.3218598621963816">
+        <attvalues>
+          <attvalue for="3" value="-3.464932212592114" />
+          <attvalue for="4" value="0.123209125146297" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="MichiganState" id="138" weight="0.18222263629759064">
+        <attvalues>
+          <attvalue for="3" value="-4.3386675049366765" />
+          <attvalue for="4" value="0.16443970049000922" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="Indiana" id="139" weight="0.22035540530389228">
+        <attvalues>
+          <attvalue for="3" value="-3.9453345019661317" />
+          <attvalue for="4" value="0.17543691339422385" />
+        </attvalues>
+      </edge>
+      <edge source="Northwestern" target="TexasChristian" id="140" weight="2.6722154611138054">
+        <attvalues>
+          <attvalue for="3" value="0.20930687544810744" />
+          <attvalue for="4" value="-0.4111110373564515" />
+        </attvalues>
+      </edge>
+      <edge source="WesternMichigan" target="Wisconsin" id="141" weight="2.4227871486344386">
+        <attvalues>
+          <attvalue for="3" value="0.0922496686157449" />
+          <attvalue for="4" value="-0.1838637840075643" />
+        </attvalues>
+      </edge>
+      <edge source="WesternMichigan" target="BallState" id="142" weight="0.38639812243002036">
+        <attvalues>
+          <attvalue for="3" value="-2.74928980507021" />
+          <attvalue for="4" value="0.1391799211870437" />
+        </attvalues>
+      </edge>
+      <edge source="WesternMichigan" target="CentralMichigan" id="143" weight="0.37306775133768244">
+        <attvalues>
+          <attvalue for="3" value="-3.091374500561958" />
+          <attvalue for="4" value="0.21681345470511193" />
+        </attvalues>
+      </edge>
+      <edge source="WesternMichigan" target="EasternMichigan" id="144" weight="0.42400637534731583">
+        <attvalues>
+          <attvalue for="3" value="-2.7701437607095603" />
+          <attvalue for="4" value="0.003469327281457324" />
+        </attvalues>
+      </edge>
+      <edge source="WesternMichigan" target="Kent" id="145" weight="0.22408355315936287">
+        <attvalues>
+          <attvalue for="3" value="-2.749273040741793" />
+          <attvalue for="4" value="0.1856037943984341" />
+        </attvalues>
+      </edge>
+      <edge source="WesternMichigan" target="Ohio" id="146" weight="0.23292754996126835">
+        <attvalues>
+          <attvalue for="3" value="-2.4800100241018166" />
+          <attvalue for="4" value="0.2372509994528833" />
+        </attvalues>
+      </edge>
+      <edge source="WesternMichigan" target="Toledo" id="147" weight="0.19163121832656715">
+        <attvalues>
+          <attvalue for="3" value="-3.4396083939052025" />
+          <attvalue for="4" value="0.21590612210003424" />
+        </attvalues>
+      </edge>
+      <edge source="WesternMichigan" target="Marshall" id="148" weight="0.2618758988745637">
+        <attvalues>
+          <attvalue for="3" value="-2.8413674660794137" />
+          <attvalue for="4" value="0.13634069580730568" />
+        </attvalues>
+      </edge>
+      <edge source="Wisconsin" target="Michigan" id="149" weight="0.11022832606939886">
+        <attvalues>
+          <attvalue for="3" value="-5.042745031329693" />
+          <attvalue for="4" value="0.21039631152260763" />
+          <attvalue for="5" value="{('OhioState', 'Wisconsin'): {'ricciCurvature': -7.330071697799223, 'original_RC': 0.24765011631786515, 'id': '151', 'weight': 0.08934322380044916}}" />
+        </attvalues>
+      </edge>
+      <edge source="Wisconsin" target="Purdue" id="150" weight="0.33175073911913683">
+        <attvalues>
+          <attvalue for="3" value="-3.527683769420414" />
+          <attvalue for="4" value="0.1942259345730547" />
+        </attvalues>
+      </edge>
+      <edge source="Wisconsin" target="Minnesota" id="152" weight="0.22994785699750575">
+        <attvalues>
+          <attvalue for="3" value="-3.8662814938843946" />
+          <attvalue for="4" value="0.12700168675981205" />
+        </attvalues>
+      </edge>
+      <edge source="Wisconsin" target="Oregon" id="153" weight="2.682539489279385">
+        <attvalues>
+          <attvalue for="3" value="0.23080395009578236" />
+          <attvalue for="4" value="-0.4735752449368864" />
+        </attvalues>
+      </edge>
+      <edge source="Wisconsin" target="Cincinnati" id="154" weight="3.3308264981310747">
+        <attvalues>
+          <attvalue for="3" value="0.404025538013114" />
+          <attvalue for="4" value="-0.4836298243711652" />
+        </attvalues>
+      </edge>
+      <edge source="Wisconsin" target="MichiganState" id="155" weight="0.2532072685098005">
+        <attvalues>
+          <attvalue for="3" value="-3.839725613073819" />
+          <attvalue for="4" value="0.11749884203191563" />
+        </attvalues>
+      </edge>
+      <edge source="Wisconsin" target="Indiana" id="156" weight="0.26378422609011093">
+        <attvalues>
+          <attvalue for="3" value="-3.7287682692262276" />
+          <attvalue for="4" value="0.16443475577726252" />
+        </attvalues>
+      </edge>
+      <edge source="Wisconsin" target="Hawaii" id="157" weight="2.6716245559284575">
+        <attvalues>
+          <attvalue for="3" value="0.19567639996075148" />
+          <attvalue for="4" value="-0.3487800470815685" />
+        </attvalues>
+      </edge>
+      <edge source="Wyoming" target="Auburn" id="158" weight="3.0370451596034873">
+        <attvalues>
+          <attvalue for="3" value="0.30405637087757" />
+          <attvalue for="4" value="-0.4549909725473116" />
+        </attvalues>
+      </edge>
+      <edge source="Wyoming" target="Utah" id="159" weight="0.3973022456900739">
+        <attvalues>
+          <attvalue for="3" value="-3.818166942688787" />
+          <attvalue for="4" value="0.12386237723099125" />
+        </attvalues>
+      </edge>
+      <edge source="Wyoming" target="CentralMichigan" id="160" weight="3.9649975247904057">
+        <attvalues>
+          <attvalue for="3" value="0.384838443056593" />
+          <attvalue for="4" value="-0.5032376236654625" />
+        </attvalues>
+      </edge>
+      <edge source="Wyoming" target="ColoradoState" id="161" weight="0.25490240364263206">
+        <attvalues>
+          <attvalue for="3" value="-4.376177277380729" />
+          <attvalue for="4" value="0.2668110605116054" />
+        </attvalues>
+      </edge>
+      <edge source="Wyoming" target="Nevada" id="162" weight="2.5097320805461">
+        <attvalues>
+          <attvalue for="3" value="0.1315500469657067" />
+          <attvalue for="4" value="-0.2758521220502905" />
+        </attvalues>
+      </edge>
+      <edge source="Wyoming" target="TexasA&amp;M" id="163" weight="2.761875189240006">
+        <attvalues>
+          <attvalue for="3" value="0.18988329746969357" />
+          <attvalue for="4" value="-0.3192388655406788" />
+        </attvalues>
+      </edge>
+      <edge source="Wyoming" target="AirForce" id="164" weight="0.3239969956258111">
+        <attvalues>
+          <attvalue for="3" value="-3.8174224496358784" />
+          <attvalue for="4" value="0.18964611389595687" />
+        </attvalues>
+      </edge>
+      <edge source="Wyoming" target="NevadaLasVegas" id="165" weight="0.1218096840437853">
+        <attvalues>
+          <attvalue for="3" value="-5.679096111885858" />
+          <attvalue for="4" value="0.29365214056493005" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="Alabama" id="166" weight="0.15998181978143555">
+        <attvalues>
+          <attvalue for="3" value="-3.9303217855775436" />
+          <attvalue for="4" value="0.1299120368813229" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="Florida" id="167" weight="0.1174013216402921">
+        <attvalues>
+          <attvalue for="3" value="-4.086048609239202" />
+          <attvalue for="4" value="0.21953729173096626" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="LouisianaTech" id="168" weight="1.9700929200845498">
+        <attvalues>
+          <attvalue for="3" value="-0.055705517998202" />
+          <attvalue for="4" value="-0.25843774710713774" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="Vanderbilt" id="169" weight="0.2064377995004306">
+        <attvalues>
+          <attvalue for="3" value="-4.080081252172326" />
+          <attvalue for="4" value="0.03870898017162916" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="MississippiState" id="170" weight="0.18132808763496364">
+        <attvalues>
+          <attvalue for="3" value="-3.859339678520347" />
+          <attvalue for="4" value="0.22016681305356345" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="Mississippi" id="171" weight="0.23834953348429844">
+        <attvalues>
+          <attvalue for="3" value="-3.645079803658657" />
+          <attvalue for="4" value="0.2188740032582681" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="Georgia" id="172" weight="0.3209023515540344">
+        <attvalues>
+          <attvalue for="3" value="-3.219379395640427" />
+          <attvalue for="4" value="0.1376835231373318" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="LouisianaState" id="173" weight="0.3903883838858378">
+        <attvalues>
+          <attvalue for="3" value="-3.29537644374882" />
+          <attvalue for="4" value="0.12145930656307358" />
+        </attvalues>
+      </edge>
+      <edge source="Auburn" target="Arkansas" id="174" weight="0.24339232454601026">
+        <attvalues>
+          <attvalue for="3" value="-3.487847294253183" />
+          <attvalue for="4" value="0.22946547474255952" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="VirginiaTech" id="175" weight="2.4136735341362274">
+        <attvalues>
+          <attvalue for="3" value="0.27925316595022576" />
+          <attvalue for="4" value="-0.22968234955008615" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="BowlingGreenState" id="176" weight="0.10819186115345279">
+        <attvalues>
+          <attvalue for="3" value="-4.222095887865412" />
+          <attvalue for="4" value="0.21405273604340058" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="Buffalo" id="177" weight="0.0503855193820035">
+        <attvalues>
+          <attvalue for="3" value="-4.95534883974859" />
+          <attvalue for="4" value="0.35313795288959093" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="CentralFlorida" id="178" weight="0.4080580665570474">
+        <attvalues>
+          <attvalue for="3" value="-2.882037119681591" />
+          <attvalue for="4" value="-0.15427442645010325" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="CentralMichigan" id="179" weight="0.43184812727100463">
+        <attvalues>
+          <attvalue for="3" value="-2.7303442528950033" />
+          <attvalue for="4" value="-0.004988639114217097" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="Connecticut" id="180" weight="0.3415181125975901">
+        <attvalues>
+          <attvalue for="3" value="-2.9242549017845385" />
+          <attvalue for="4" value="-0.09491027386595174" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="Kent" id="181" weight="0.14247552402788338">
+        <attvalues>
+          <attvalue for="3" value="-2.9489437453298293" />
+          <attvalue for="4" value="0.23069965957829353" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="MiamiOhio" id="182" weight="0.3750381364348837">
+        <attvalues>
+          <attvalue for="3" value="-2.8532120577757825" />
+          <attvalue for="4" value="0.16567395748059532" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="Ohio" id="183" weight="0.4329731339990572">
+        <attvalues>
+          <attvalue for="3" value="-2.788643662613435" />
+          <attvalue for="4" value="0.17991593938123374" />
+        </attvalues>
+      </edge>
+      <edge source="Akron" target="Marshall" id="184" weight="0.2633967849281659">
+        <attvalues>
+          <attvalue for="3" value="-2.929657857136787" />
+          <attvalue for="4" value="0.13964593996261332" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="BostonCollege" id="185" weight="0.057860630478075076">
+        <attvalues>
+          <attvalue for="3" value="-8.8336663228003" />
+          <attvalue for="4" value="0.22221070279302646" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="WestVirginia" id="186" weight="0.20708949359936293">
+        <attvalues>
+          <attvalue for="3" value="-4.18231853354199" />
+          <attvalue for="4" value="0.22167719034987388" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="Virginia" id="187" weight="2.2127462611195954">
+        <attvalues>
+          <attvalue for="3" value="0.016508964590036923" />
+          <attvalue for="4" value="-0.1458580242597889" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="Syracuse" id="188" weight="0.16469769975567072">
+        <attvalues>
+          <attvalue for="3" value="-4.558189976625834" />
+          <attvalue for="4" value="0.3110158740869373" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="CentralFlorida" id="189" weight="2.442747694016824">
+        <attvalues>
+          <attvalue for="3" value="0.2591918180973002" />
+          <attvalue for="4" value="-0.19936311389045724" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="EastCarolina" id="190" weight="2.4937246807984565">
+        <attvalues>
+          <attvalue for="3" value="0.31717096900513597" />
+          <attvalue for="4" value="-0.22792707455931294" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="Pittsburgh" id="191" weight="0.09270834555870058">
+        <attvalues>
+          <attvalue for="3" value="-6.728924087137139" />
+          <attvalue for="4" value="0.22394798414523598" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="Temple" id="192" weight="0.05595518485432704">
+        <attvalues>
+          <attvalue for="3" value="-7.797061514596203" />
+          <attvalue for="4" value="0.3026537623499794" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="Rutgers" id="193" weight="0.13082839209348998">
+        <attvalues>
+          <attvalue for="3" value="-6.015342727572696" />
+          <attvalue for="4" value="0.2241273734389846" />
+        </attvalues>
+      </edge>
+      <edge source="VirginiaTech" target="MiamiFlorida" id="194" weight="0.3224828526182262">
+        <attvalues>
+          <attvalue for="3" value="-3.7867829325878475" />
+          <attvalue for="4" value="0.23529918872373157" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="UCLA" id="195" weight="4.00798079644519">
+        <attvalues>
+          <attvalue for="3" value="0.3787104158392066" />
+          <attvalue for="4" value="-0.8181818181911871" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="CentralFlorida" id="196" weight="3.4374828317848833">
+        <attvalues>
+          <attvalue for="3" value="0.27123824125669305" />
+          <attvalue for="4" value="-0.23191613282972323" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="Vanderbilt" id="197" weight="0.3331602547801471">
+        <attvalues>
+          <attvalue for="3" value="-3.421859790267469" />
+          <attvalue for="4" value="0.0835286949636499" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="MississippiState" id="198" weight="0.23474188043005223">
+        <attvalues>
+          <attvalue for="3" value="-3.4391736257596213" />
+          <attvalue for="4" value="0.17298768881498516" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="SouthCarolina" id="199" weight="0.22045429456379353">
+        <attvalues>
+          <attvalue for="3" value="-3.5896144550150915" />
+          <attvalue for="4" value="0.08601340326838791" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="SouthernMississippi" id="200" weight="2.351822875448363">
+        <attvalues>
+          <attvalue for="3" value="0.09640754144704611" />
+          <attvalue for="4" value="-0.19614881834589193" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="Tennessee" id="201" weight="0.3927214138682766">
+        <attvalues>
+          <attvalue for="3" value="-3.020550024241202" />
+          <attvalue for="4" value="0.22635601475970324" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="Mississippi" id="202" weight="0.2664899000998428">
+        <attvalues>
+          <attvalue for="3" value="-3.515731800043251" />
+          <attvalue for="4" value="0.12960117940333338" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="LouisianaState" id="203" weight="0.40547216564685845">
+        <attvalues>
+          <attvalue for="3" value="-3.099964416787926" />
+          <attvalue for="4" value="0.16718237517587242" />
+        </attvalues>
+      </edge>
+      <edge source="Alabama" target="Arkansas" id="204" weight="0.3047914540472046">
+        <attvalues>
+          <attvalue for="3" value="-3.343581531564313" />
+          <attvalue for="4" value="0.23023630227491387" />
+        </attvalues>
+      </edge>
+      <edge source="UCLA" target="Arizona" id="205" weight="0.19251859678857647">
+        <attvalues>
+          <attvalue for="3" value="-4.253910342871886" />
+          <attvalue for="4" value="0.2258737158000288" />
+        </attvalues>
+      </edge>
+      <edge source="UCLA" target="Michigan" id="206" weight="2.6457067296904224">
+        <attvalues>
+          <attvalue for="3" value="0.2808507330882015" />
+          <attvalue for="4" value="-0.3193246318227383" />
+        </attvalues>
+      </edge>
+      <edge source="UCLA" target="FresnoState" id="207" weight="2.347084708435635">
+        <attvalues>
+          <attvalue for="3" value="0.23130125343366958" />
+          <attvalue for="4" value="-0.27391874019227247" />
+        </attvalues>
+      </edge>
+      <edge source="UCLA" target="Washington" id="208" weight="0.35512984638174777">
+        <attvalues>
+          <attvalue for="3" value="-4.199606652646744" />
+          <attvalue for="4" value="0.12469454106396705" />
+        </attvalues>
+      </edge>
+      <edge source="UCLA" target="Oregon" id="209" weight="0.12971655888371592">
+        <attvalues>
+          <attvalue for="3" value="-5.268738618566132" />
+          <attvalue for="4" value="0.2651298193726731" />
+        </attvalues>
+      </edge>
+      <edge source="UCLA" target="Stanford" id="210" weight="0.3284118796785223">
+        <attvalues>
+          <attvalue for="3" value="-4.480514598230021" />
+          <attvalue for="4" value="0.21594512361512008" />
+        </attvalues>
+      </edge>
+      <edge source="UCLA" target="OregonState" id="211" weight="0.30749077324945073">
+        <attvalues>
+          <attvalue for="3" value="-3.9515285490143244" />
+          <attvalue for="4" value="0.1829141204212119" />
+        </attvalues>
+      </edge>
+      <edge source="UCLA" target="California" id="212" weight="0.14183023174162526">
+        <attvalues>
+          <attvalue for="3" value="-5.226665569258007" />
+          <attvalue for="4" value="0.31635819411351085" />
+        </attvalues>
+      </edge>
+      <edge source="Arizona" target="Utah" id="213" weight="1.8934651883948412">
+        <attvalues>
+          <attvalue for="3" value="0.32886020974693364" />
+          <attvalue for="4" value="-0.1373268653123383" />
+        </attvalues>
+      </edge>
+      <edge source="Arizona" target="Washington" id="215" weight="0.2862142226933554">
+        <attvalues>
+          <attvalue for="3" value="-3.9869246617639407" />
+          <attvalue for="4" value="0.1792943488980605" />
+        </attvalues>
+      </edge>
+      <edge source="Arizona" target="Oregon" id="216" weight="0.09543987496566111">
+        <attvalues>
+          <attvalue for="3" value="-5.807372957504231" />
+          <attvalue for="4" value="0.25868903649764863" />
+        </attvalues>
+      </edge>
+      <edge source="Arizona" target="Stanford" id="217" weight="0.30895242341403967">
+        <attvalues>
+          <attvalue for="3" value="-4.850537855934083" />
+          <attvalue for="4" value="0.17971327429679973" />
+        </attvalues>
+      </edge>
+      <edge source="Arizona" target="WashingtonState" id="218" weight="0.23905894929622107">
+        <attvalues>
+          <attvalue for="3" value="-6.064748255425707" />
+          <attvalue for="4" value="0.26134229131301945" />
+        </attvalues>
+      </edge>
+      <edge source="Arizona" target="OregonState" id="219" weight="0.09001971494132317">
+        <attvalues>
+          <attvalue for="3" value="-5.926436863300798" />
+          <attvalue for="4" value="0.36101837889171173" />
+        </attvalues>
+      </edge>
+      <edge source="Arizona" target="Michigan" id="214" weight="2.6991540717977727">
+        <attvalues>
+          <attvalue for="3" value="0.21167588899821865" />
+          <attvalue for="4" value="-0.36379932495404343" />
+        </attvalues>
+      </edge>
+      <edge source="Utah" target="ColoradoState" id="220" weight="0.15102929528050757">
+        <attvalues>
+          <attvalue for="3" value="-4.747742088653509" />
+          <attvalue for="4" value="0.24098276855551437" />
+        </attvalues>
+      </edge>
+      <edge source="Utah" target="WashingtonState" id="221" weight="1.8096636560640729">
+        <attvalues>
+          <attvalue for="3" value="0.47262175402236306" />
+          <attvalue for="4" value="-0.0914312839642033" />
+        </attvalues>
+      </edge>
+      <edge source="Utah" target="UtahState" id="222" weight="1.7023937868765695">
+        <attvalues>
+          <attvalue for="3" value="0.2338769361724271" />
+          <attvalue for="4" value="-0.1163889063102781" />
+        </attvalues>
+      </edge>
+      <edge source="Utah" target="AirForce" id="223" weight="0.3723641310981383">
+        <attvalues>
+          <attvalue for="3" value="-3.499684428740693" />
+          <attvalue for="4" value="0.13417475302609616" />
+        </attvalues>
+      </edge>
+      <edge source="Utah" target="NevadaLasVegas" id="224" weight="0.25663208752233646">
+        <attvalues>
+          <attvalue for="3" value="-4.164322550110577" />
+          <attvalue for="4" value="0.11503580580664885" />
+        </attvalues>
+      </edge>
+      <edge source="Utah" target="California" id="225" weight="1.971310513721939">
+        <attvalues>
+          <attvalue for="3" value="0.24122938500985014" />
+          <attvalue for="4" value="-0.14127483534314633" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="NorthCarolinaState" id="226" weight="3.065274024372945">
+        <attvalues>
+          <attvalue for="3" value="0.30768248777886886" />
+          <attvalue for="4" value="-0.4686808302991017" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="BoiseState" id="227" weight="0.26999381145983015">
+        <attvalues>
+          <attvalue for="3" value="-4.248805036800057" />
+          <attvalue for="4" value="-0.012958641797598869" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="Idaho" id="228" weight="0.3310837439129622">
+        <attvalues>
+          <attvalue for="3" value="-3.9656477419756477" />
+          <attvalue for="4" value="-0.062127345557257074" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="Memphis" id="229" weight="2.84833341175497">
+        <attvalues>
+          <attvalue for="3" value="0.28146511766097637" />
+          <attvalue for="4" value="-0.29479126045998827" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="NewMexicoState" id="230" weight="0.05905177971006506">
+        <attvalues>
+          <attvalue for="3" value="-9.23108217943515" />
+          <attvalue for="4" value="0.1807914607397626" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="Oklahoma" id="231" weight="2.500522749103129">
+        <attvalues>
+          <attvalue for="3" value="0.16085632073797895" />
+          <attvalue for="4" value="-0.28822281361571966" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="Mississippi" id="232" weight="2.6843115390013716">
+        <attvalues>
+          <attvalue for="3" value="0.2947227519033564" />
+          <attvalue for="4" value="-0.33663039370281567" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="UtahState" id="233" weight="0.26054430277931473">
+        <attvalues>
+          <attvalue for="3" value="-4.17956061703626" />
+          <attvalue for="4" value="0.037590261104495926" />
+        </attvalues>
+      </edge>
+      <edge source="ArkansasState" target="TexasChristian" id="234" weight="2.64154539746257">
+        <attvalues>
+          <attvalue for="3" value="0.1567195160282001" />
+          <attvalue for="4" value="-0.3413043324789333" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="Virginia" id="235" weight="0.2592894273109162">
+        <attvalues>
+          <attvalue for="3" value="-4.230969309873537" />
+          <attvalue for="4" value="0.22006731658568845" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="GeorgiaTech" id="236" weight="0.31914764788968186">
+        <attvalues>
+          <attvalue for="3" value="-4.135966336431653" />
+          <attvalue for="4" value="0.21948313963964527" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="Duke" id="237" weight="0.14790702911669676">
+        <attvalues>
+          <attvalue for="3" value="-5.319667010089256" />
+          <attvalue for="4" value="0.3044831030709959" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="SouthernMethodist" id="238" weight="2.8514691433772454">
+        <attvalues>
+          <attvalue for="3" value="0.20769885751402195" />
+          <attvalue for="4" value="-0.48172712869839573" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="NorthCarolina" id="239" weight="0.17548806521335678">
+        <attvalues>
+          <attvalue for="3" value="-4.828040016548691" />
+          <attvalue for="4" value="0.26425512789146854" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="Clemson" id="240" weight="0.26470823148236716">
+        <attvalues>
+          <attvalue for="3" value="-4.042958987816382" />
+          <attvalue for="4" value="0.27096825947036085" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="WakeForest" id="241" weight="0.3498063849283799">
+        <attvalues>
+          <attvalue for="3" value="-3.904184406405917" />
+          <attvalue for="4" value="0.2748279024589271" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="Indiana" id="242" weight="3.169193632479316">
+        <attvalues>
+          <attvalue for="3" value="0.28442230049988515" />
+          <attvalue for="4" value="-0.5028311811901296" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolinaState" target="Maryland" id="243" weight="0.34105946626063444">
+        <attvalues>
+          <attvalue for="3" value="-3.7786738091935925" />
+          <attvalue for="4" value="0.21796504153531193" />
+        </attvalues>
+      </edge>
+      <edge source="BallState" target="Florida" id="244" weight="3.388544649755861">
+        <attvalues>
+          <attvalue for="3" value="0.31359782387308344" />
+          <attvalue for="4" value="-0.42733319574834683" />
+        </attvalues>
+      </edge>
+      <edge source="BallState" target="Buffalo" id="245" weight="0.5433692913385006">
+        <attvalues>
+          <attvalue for="3" value="-2.5852230968822587" />
+          <attvalue for="4" value="0.034432165352553" />
+        </attvalues>
+      </edge>
+      <edge source="BallState" target="CentralMichigan" id="246" weight="0.34040296155737826">
+        <attvalues>
+          <attvalue for="3" value="-2.900029682140606" />
+          <attvalue for="4" value="0.12460717077021577" />
+        </attvalues>
+      </edge>
+      <edge source="BallState" target="Connecticut" id="247" weight="0.37870953787889455">
+        <attvalues>
+          <attvalue for="3" value="-2.9243149726325885" />
+          <attvalue for="4" value="-0.010727509076947639" />
+        </attvalues>
+      </edge>
+      <edge source="BallState" target="EasternMichigan" id="248" weight="0.27834507108687195">
+        <attvalues>
+          <attvalue for="3" value="-2.9594008894056043" />
+          <attvalue for="4" value="0.2655761466665245" />
+        </attvalues>
+      </edge>
+      <edge source="BallState" target="MiamiOhio" id="249" weight="0.28840999598129735">
+        <attvalues>
+          <attvalue for="3" value="-2.657963306084454" />
+          <attvalue for="4" value="0.06333278645079132" />
+        </attvalues>
+      </edge>
+      <edge source="BallState" target="Toledo" id="250" weight="0.4305037502314015">
+        <attvalues>
+          <attvalue for="3" value="-2.810104270627905" />
+          <attvalue for="4" value="0.13212809092658717" />
+        </attvalues>
+      </edge>
+      <edge source="Florida" target="Kentucky" id="251" weight="0.2820275067942299">
+        <attvalues>
+          <attvalue for="3" value="-3.464857369416202" />
+          <attvalue for="4" value="0.2659155944107169" />
+        </attvalues>
+      </edge>
+      <edge source="Florida" target="Vanderbilt" id="252" weight="0.06613976083616191">
+        <attvalues>
+          <attvalue for="3" value="-5.325054580216611" />
+          <attvalue for="4" value="0.2653840158790042" />
+        </attvalues>
+      </edge>
+      <edge source="Florida" target="MississippiState" id="254" weight="0.3124467573723515">
+        <attvalues>
+          <attvalue for="3" value="-3.37742966955756" />
+          <attvalue for="4" value="0.22576525875165787" />
+        </attvalues>
+      </edge>
+      <edge source="Florida" target="SouthCarolina" id="255" weight="0.10473943827536765">
+        <attvalues>
+          <attvalue for="3" value="-4.755301707093741" />
+          <attvalue for="4" value="0.2231970183403622" />
+        </attvalues>
+      </edge>
+      <edge source="Florida" target="Tennessee" id="256" weight="0.3007126176824446">
+        <attvalues>
+          <attvalue for="3" value="-3.3455076460980244" />
+          <attvalue for="4" value="0.17909572261024576" />
+        </attvalues>
+      </edge>
+      <edge source="Florida" target="Georgia" id="257" weight="0.27313724693064784">
+        <attvalues>
+          <attvalue for="3" value="-3.636964937543973" />
+          <attvalue for="4" value="0.18033834730502185" />
+        </attvalues>
+      </edge>
+      <edge source="Florida" target="LouisianaState" id="258" weight="0.36849462822644596">
+        <attvalues>
+          <attvalue for="3" value="-3.39100215222304" />
+          <attvalue for="4" value="0.16275082634905436" />
+        </attvalues>
+      </edge>
+      <edge source="Florida" target="LouisianaMonroe" id="253" weight="1.7672465089710723">
+        <attvalues>
+          <attvalue for="3" value="0.2354184644664652" />
+          <attvalue for="4" value="-0.1015389893412122" />
+        </attvalues>
+      </edge>
+      <edge source="BoiseState" target="CentralMichigan" id="259" weight="3.945063605853">
+        <attvalues>
+          <attvalue for="3" value="0.4401082025493188" />
+          <attvalue for="4" value="-0.571478123194924" />
+        </attvalues>
+      </edge>
+      <edge source="BoiseState" target="Idaho" id="260" weight="0.2426339310057055">
+        <attvalues>
+          <attvalue for="3" value="-4.272676139198299" />
+          <attvalue for="4" value="0.10560871203260969" />
+        </attvalues>
+      </edge>
+      <edge source="BoiseState" target="NewMexicoState" id="261" weight="0.212101262607613">
+        <attvalues>
+          <attvalue for="3" value="-4.680621129042029" />
+          <attvalue for="4" value="0.0800586549382325" />
+        </attvalues>
+      </edge>
+      <edge source="BoiseState" target="WashingtonState" id="262" weight="2.2557615684313848">
+        <attvalues>
+          <attvalue for="3" value="0.10052339123719123" />
+          <attvalue for="4" value="-0.31327145943233603" />
+        </attvalues>
+      </edge>
+      <edge source="BoiseState" target="UtahState" id="263" weight="0.23781207572116686">
+        <attvalues>
+          <attvalue for="3" value="-4.237893146597031" />
+          <attvalue for="4" value="0.20332248590865243" />
+        </attvalues>
+      </edge>
+      <edge source="BoiseState" target="Arkansas" id="264" weight="2.778971102365469">
+        <attvalues>
+          <attvalue for="3" value="0.18025241277468684" />
+          <attvalue for="4" value="-0.37863662222193395" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="WestVirginia" id="265" weight="0.25180174655380294">
+        <attvalues>
+          <attvalue for="3" value="-3.816624811958393" />
+          <attvalue for="4" value="0.26802267818831804" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="Syracuse" id="266" weight="0.10708904742773963">
+        <attvalues>
+          <attvalue for="3" value="-5.754680037456261" />
+          <attvalue for="4" value="0.26058058099483716" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="Connecticut" id="267" weight="2.3785433338434543">
+        <attvalues>
+          <attvalue for="3" value="0.332594152162783" />
+          <attvalue for="4" value="-0.15227129183155874" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="Pittsburgh" id="268" weight="0.1942673650995493">
+        <attvalues>
+          <attvalue for="3" value="-6.0428040062331565" />
+          <attvalue for="4" value="0.12866916145888851" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="Temple" id="269" weight="0.16871685765193395">
+        <attvalues>
+          <attvalue for="3" value="-6.921510553462175" />
+          <attvalue for="4" value="0.265272445893846" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="Navy" id="270" weight="0.22937631555367313">
+        <attvalues>
+          <attvalue for="3" value="-4.042666274199091" />
+          <attvalue for="4" value="-0.050303801914648894" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="NotreDame" id="271" weight="0.41965447057433475">
+        <attvalues>
+          <attvalue for="3" value="-3.4292039315813208" />
+          <attvalue for="4" value="-0.22958121922462027" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="Army" id="272" weight="2.594834606942575">
+        <attvalues>
+          <attvalue for="3" value="0.21071475286471886" />
+          <attvalue for="4" value="-0.2279403710592458" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="Rutgers" id="273" weight="0.14589438203995228">
+        <attvalues>
+          <attvalue for="3" value="-4.089738281295635" />
+          <attvalue for="4" value="0.41229618533436085" />
+        </attvalues>
+      </edge>
+      <edge source="BostonCollege" target="MiamiFlorida" id="274" weight="0.38631852951080903">
+        <attvalues>
+          <attvalue for="3" value="-3.474893690532409" />
+          <attvalue for="4" value="0.18304180573801565" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="Syracuse" id="275" weight="0.17423438418785625">
+        <attvalues>
+          <attvalue for="3" value="-4.655158403523482" />
+          <attvalue for="4" value="0.21884602581423362" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="EastCarolina" id="276" weight="2.3985567271163766">
+        <attvalues>
+          <attvalue for="3" value="0.42461464526220316" />
+          <attvalue for="4" value="-0.23104152082165808" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="Idaho" id="277" weight="3.4501520507110035">
+        <attvalues>
+          <attvalue for="3" value="0.29372965328081435" />
+          <attvalue for="4" value="-0.49540260657370294" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="Pittsburgh" id="278" weight="0.349233962130605">
+        <attvalues>
+          <attvalue for="3" value="-4.3133639173416976" />
+          <attvalue for="4" value="0.13219365264675753" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="Temple" id="279" weight="0.32193455947630334">
+        <attvalues>
+          <attvalue for="3" value="-4.42253926712053" />
+          <attvalue for="4" value="0.22218405051027112" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="NotreDame" id="280" weight="0.3518846688841051">
+        <attvalues>
+          <attvalue for="3" value="-3.7067739434457794" />
+          <attvalue for="4" value="-0.28072985080622415" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="Rutgers" id="281" weight="0.3966368020487509">
+        <attvalues>
+          <attvalue for="3" value="-4.24009497188087" />
+          <attvalue for="4" value="0.2653053122508009" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="MiamiFlorida" id="282" weight="0.1452351291025667">
+        <attvalues>
+          <attvalue for="3" value="-4.795972840285196" />
+          <attvalue for="4" value="0.2446976483775115" />
+        </attvalues>
+      </edge>
+      <edge source="WestVirginia" target="Maryland" id="283" weight="2.0656058214824555">
+        <attvalues>
+          <attvalue for="3" value="0.17737518215578185" />
+          <attvalue for="4" value="-0.14555889577318504" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="Michigan" id="284" weight="2.4705407108202526">
+        <attvalues>
+          <attvalue for="3" value="0.056130708704899224" />
+          <attvalue for="4" value="-0.28298258527817577" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="Buffalo" id="285" weight="0.11427505665483467">
+        <attvalues>
+          <attvalue for="3" value="-3.6821175245781834" />
+          <attvalue for="4" value="0.25722245055522863" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="EasternMichigan" id="286" weight="0.34266887031157556">
+        <attvalues>
+          <attvalue for="3" value="-2.6152951871741332" />
+          <attvalue for="4" value="0.04450305206235328" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="Kent" id="287" weight="0.050362106308876935">
+        <attvalues>
+          <attvalue for="3" value="-5.0517624533059395" />
+          <attvalue for="4" value="0.32130819493319396" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="Pittsburgh" id="288" weight="2.2526424465355483">
+        <attvalues>
+          <attvalue for="3" value="0.5356439254493119" />
+          <attvalue for="4" value="-0.052240561825092735" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="MiamiOhio" id="289" weight="0.295358418451089">
+        <attvalues>
+          <attvalue for="3" value="-3.228054518533794" />
+          <attvalue for="4" value="0.2221003228711379" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="Ohio" id="290" weight="0.34354895926718815">
+        <attvalues>
+          <attvalue for="3" value="-3.1502675719072544" />
+          <attvalue for="4" value="0.13959461557517727" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="Temple" id="291" weight="2.3025631731888923">
+        <attvalues>
+          <attvalue for="3" value="0.4340638845742576" />
+          <attvalue for="4" value="-0.13919820408886974" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="Toledo" id="292" weight="0.10240364634437267">
+        <attvalues>
+          <attvalue for="3" value="-2.5653322952710758" />
+          <attvalue for="4" value="0.15585421314226544" />
+        </attvalues>
+      </edge>
+      <edge source="BowlingGreenState" target="Marshall" id="293" weight="0.1506700925393643">
+        <attvalues>
+          <attvalue for="3" value="-3.5583522135308066" />
+          <attvalue for="4" value="0.3165444608021116" />
+        </attvalues>
+      </edge>
+      <edge source="Michigan" target="Purdue" id="294" weight="0.3088425017265219">
+        <attvalues>
+          <attvalue for="3" value="-3.5750581489380995" />
+          <attvalue for="4" value="0.21632561320595" />
+          <attvalue for="5" value="{('OhioState', 'Purdue'): {'ricciCurvature': -6.768804590576339, 'original_RC': 0.17179603692944423, 'id': '335', 'weight': 0.20363826884775948}}" />
+        </attvalues>
+      </edge>
+      <edge source="Michigan" target="Rice" id="296" weight="2.6948179741257214">
+        <attvalues>
+          <attvalue for="3" value="0.18255826265720698" />
+          <attvalue for="4" value="-0.40930270928149026" />
+        </attvalues>
+      </edge>
+      <edge source="Michigan" target="Illinois" id="297" weight="0.22165448761696377">
+        <attvalues>
+          <attvalue for="3" value="-3.9370197612322686" />
+          <attvalue for="4" value="0.12581712991518756" />
+          <attvalue for="5" value="{('OhioState', 'Illinois'): {'ricciCurvature': -6.767991839195075, 'original_RC': 0.219806883104273, 'id': '385', 'weight': 0.14889102115731295}}" />
+        </attvalues>
+      </edge>
+      <edge source="Michigan" target="MichiganState" id="298" weight="0.22528633739971388">
+        <attvalues>
+          <attvalue for="3" value="-3.9619871140763925" />
+          <attvalue for="4" value="0.21660049446523444" />
+          <attvalue for="5" value="{('OhioState', 'MichiganState'): {'ricciCurvature': -6.982038052622796, 'original_RC': 0.21692543251466656, 'id': '386', 'weight': 0.15045747613454394}}" />
+        </attvalues>
+      </edge>
+      <edge source="Michigan" target="Indiana" id="299" weight="0.4109135742772811">
+        <attvalues>
+          <attvalue for="3" value="-3.7740523271448065" />
+          <attvalue for="4" value="0.12059317196338026" />
+        </attvalues>
+      </edge>
+      <edge source="Michigan" target="FresnoState" id="373" weight="2.5990518293587264">
+        <attvalues>
+          <attvalue for="3" value="0.29713585785044117" />
+          <attvalue for="4" value="-0.3245738613034119" />
+        </attvalues>
+      </edge>
+      <edge source="Michigan" target="Minnesota" id="383" weight="0.2668667872251466">
+        <attvalues>
+          <attvalue for="3" value="-3.8939531537602594" />
+          <attvalue for="4" value="0.12652939418276565" />
+        </attvalues>
+      </edge>
+      <edge source="Michigan" target="MiamiOhio" id="384" weight="2.471737673386882">
+        <attvalues>
+          <attvalue for="3" value="0.06854017641934151" />
+          <attvalue for="4" value="-0.2773620018189529" />
+        </attvalues>
+      </edge>
+      <edge source="Virginia" target="GeorgiaTech" id="300" weight="0.24161872917266702">
+        <attvalues>
+          <attvalue for="3" value="-4.751111229853242" />
+          <attvalue for="4" value="0.3107106037138121" />
+        </attvalues>
+      </edge>
+      <edge source="Virginia" target="Duke" id="301" weight="0.30796578754273257">
+        <attvalues>
+          <attvalue for="3" value="-5.408905002875914" />
+          <attvalue for="4" value="0.2715228721954007" />
+        </attvalues>
+      </edge>
+      <edge source="Virginia" target="NorthCarolina" id="302" weight="0.2046217741521034">
+        <attvalues>
+          <attvalue for="3" value="-4.436959198698519" />
+          <attvalue for="4" value="0.2713259904190033" />
+        </attvalues>
+      </edge>
+      <edge source="Virginia" target="Clemson" id="303" weight="0.3467275437285174">
+        <attvalues>
+          <attvalue for="3" value="-3.978976888157564" />
+          <attvalue for="4" value="0.28942935822960336" />
+        </attvalues>
+      </edge>
+      <edge source="Virginia" target="WakeForest" id="304" weight="0.13615129060945153">
+        <attvalues>
+          <attvalue for="3" value="-5.176032247078806" />
+          <attvalue for="4" value="0.2939453923272446" />
+        </attvalues>
+      </edge>
+      <edge source="Virginia" target="Maryland" id="305" weight="0.22260028174408966">
+        <attvalues>
+          <attvalue for="3" value="-4.3512550630659765" />
+          <attvalue for="4" value="0.32549879068455734" />
+        </attvalues>
+      </edge>
+      <edge source="Buffalo" target="Syracuse" id="306" weight="2.528989819472059">
+        <attvalues>
+          <attvalue for="3" value="0.15474944350117403" />
+          <attvalue for="4" value="-0.22789925862222882" />
+        </attvalues>
+      </edge>
+      <edge source="Buffalo" target="Connecticut" id="307" weight="0.32192179923191927">
+        <attvalues>
+          <attvalue for="3" value="-2.967171745250976" />
+          <attvalue for="4" value="-0.048690459787241736" />
+        </attvalues>
+      </edge>
+      <edge source="Buffalo" target="Kent" id="308" weight="0.17287118595718867">
+        <attvalues>
+          <attvalue for="3" value="-3.3302341625809673" />
+          <attvalue for="4" value="0.2295406934625398" />
+        </attvalues>
+      </edge>
+      <edge source="Buffalo" target="MiamiOhio" id="309" weight="0.38418311763117413">
+        <attvalues>
+          <attvalue for="3" value="-2.9238978400437072" />
+          <attvalue for="4" value="0.21275126703464975" />
+        </attvalues>
+      </edge>
+      <edge source="Buffalo" target="Ohio" id="310" weight="0.4566580747682851">
+        <attvalues>
+          <attvalue for="3" value="-2.8563916511423377" />
+          <attvalue for="4" value="0.08952746499784259" />
+        </attvalues>
+      </edge>
+      <edge source="Buffalo" target="Rutgers" id="311" weight="2.2179389401335494">
+        <attvalues>
+          <attvalue for="3" value="0.501178650189789" />
+          <attvalue for="4" value="-0.19228908543866363" />
+        </attvalues>
+      </edge>
+      <edge source="Buffalo" target="Marshall" id="312" weight="0.28717902799357625">
+        <attvalues>
+          <attvalue for="3" value="-3.2899189491684684" />
+          <attvalue for="4" value="0.17931678079710256" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse" target="EastCarolina" id="313" weight="2.458897764449225">
+        <attvalues>
+          <attvalue for="3" value="0.361940443861398" />
+          <attvalue for="4" value="-0.18573523584780527" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse" target="Pittsburgh" id="314" weight="0.2862482270167869">
+        <attvalues>
+          <attvalue for="3" value="-4.383217758135109" />
+          <attvalue for="4" value="0.17853038630969964" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse" target="Temple" id="315" weight="0.29302858020731">
+        <attvalues>
+          <attvalue for="3" value="-4.951447970836303" />
+          <attvalue for="4" value="0.21298986456046953" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse" target="Cincinnati" id="316" weight="2.566449074134674">
+        <attvalues>
+          <attvalue for="3" value="0.24058976024579715" />
+          <attvalue for="4" value="-0.2870027261764272" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse" target="Rutgers" id="317" weight="0.2966127839874317">
+        <attvalues>
+          <attvalue for="3" value="-4.083486254084287" />
+          <attvalue for="4" value="0.2830844581047287" />
+        </attvalues>
+      </edge>
+      <edge source="Syracuse" target="MiamiFlorida" id="318" weight="0.27448890569962103">
+        <attvalues>
+          <attvalue for="3" value="-3.989603833606173" />
+          <attvalue for="4" value="0.1445567881988159" />
+        </attvalues>
+      </edge>
+      <edge source="CentralFlorida" target="GeorgiaTech" id="319" weight="3.4455180520734197">
+        <attvalues>
+          <attvalue for="3" value="0.46675623167376834" />
+          <attvalue for="4" value="-0.32704150840196355" />
+        </attvalues>
+      </edge>
+      <edge source="CentralFlorida" target="EasternMichigan" id="320" weight="0.23022381594069266">
+        <attvalues>
+          <attvalue for="3" value="-3.3560211249185103" />
+          <attvalue for="4" value="-0.1375186906194379" />
+        </attvalues>
+      </edge>
+      <edge source="CentralFlorida" target="LouisianaTech" id="321" weight="3.547358453293895">
+        <attvalues>
+          <attvalue for="3" value="0.3934463085195812" />
+          <attvalue for="4" value="-0.2005154557975597" />
+        </attvalues>
+      </edge>
+      <edge source="CentralFlorida" target="LouisianaMonroe" id="322" weight="3.455961675130705">
+        <attvalues>
+          <attvalue for="3" value="0.49187286810890274" />
+          <attvalue for="4" value="-0.18906153861540842" />
+        </attvalues>
+      </edge>
+      <edge source="GeorgiaTech" target="Duke" id="323" weight="0.15338026782690797">
+        <attvalues>
+          <attvalue for="3" value="-5.191300627708355" />
+          <attvalue for="4" value="0.30824082395287555" />
+        </attvalues>
+      </edge>
+      <edge source="GeorgiaTech" target="Navy" id="324" weight="2.1399331277154956">
+        <attvalues>
+          <attvalue for="3" value="0.12324631439455458" />
+          <attvalue for="4" value="-0.2828612379032942" />
+        </attvalues>
+      </edge>
+      <edge source="GeorgiaTech" target="NorthCarolina" id="325" weight="0.1551105056190362">
+        <attvalues>
+          <attvalue for="3" value="-5.383184394349645" />
+          <attvalue for="4" value="0.2599572921004857" />
+        </attvalues>
+      </edge>
+      <edge source="GeorgiaTech" target="Georgia" id="326" weight="2.5762355493360656">
+        <attvalues>
+          <attvalue for="3" value="0.1398994357434209" />
+          <attvalue for="4" value="-0.30214390014260717" />
+        </attvalues>
+      </edge>
+      <edge source="GeorgiaTech" target="Clemson" id="327" weight="0.2762986779120713">
+        <attvalues>
+          <attvalue for="3" value="-3.870288522125456" />
+          <attvalue for="4" value="0.2758580614791767" />
+        </attvalues>
+      </edge>
+      <edge source="GeorgiaTech" target="WakeForest" id="328" weight="0.07944349551799654">
+        <attvalues>
+          <attvalue for="3" value="-7.241366997524663" />
+          <attvalue for="4" value="0.4119335983636966" />
+        </attvalues>
+      </edge>
+      <edge source="GeorgiaTech" target="Maryland" id="329" weight="0.1385426444328601">
+        <attvalues>
+          <attvalue for="3" value="-5.350620074956028" />
+          <attvalue for="4" value="0.3071036445562566" />
+        </attvalues>
+      </edge>
+      <edge source="CentralMichigan" target="Purdue" id="330" weight="2.4034309431063674">
+        <attvalues>
+          <attvalue for="3" value="0.11571964945499458" />
+          <attvalue for="4" value="-0.15259389986427685" />
+        </attvalues>
+      </edge>
+      <edge source="CentralMichigan" target="EasternMichigan" id="331" weight="0.3745362300403429">
+        <attvalues>
+          <attvalue for="3" value="-2.8938788169064322" />
+          <attvalue for="4" value="0.041786149204585454" />
+        </attvalues>
+      </edge>
+      <edge source="CentralMichigan" target="Kent" id="332" weight="0.3671903855705287">
+        <attvalues>
+          <attvalue for="3" value="-2.783424558968091" />
+          <attvalue for="4" value="0.11516633878832772" />
+        </attvalues>
+      </edge>
+      <edge source="CentralMichigan" target="Ohio" id="333" weight="0.30189651915393234">
+        <attvalues>
+          <attvalue for="3" value="-2.842786284166538" />
+          <attvalue for="4" value="0.11054949065932096" />
+        </attvalues>
+      </edge>
+      <edge source="CentralMichigan" target="Toledo" id="334" weight="0.3319762800333482">
+        <attvalues>
+          <attvalue for="3" value="-3.1111057087479654" />
+          <attvalue for="4" value="0.17023368495326552" />
+        </attvalues>
+      </edge>
+      <edge source="Purdue" target="Kent" id="336" weight="2.102329325382724">
+        <attvalues>
+          <attvalue for="3" value="0.4932973848558807" />
+          <attvalue for="4" value="-0.011578044447221103" />
+        </attvalues>
+      </edge>
+      <edge source="Purdue" target="Minnesota" id="337" weight="0.30877837855910856">
+        <attvalues>
+          <attvalue for="3" value="-3.602006212443765" />
+          <attvalue for="4" value="0.1697611084708497" />
+        </attvalues>
+      </edge>
+      <edge source="Purdue" target="NotreDame" id="338" weight="3.3612601313137174">
+        <attvalues>
+          <attvalue for="3" value="0.3367613236257423" />
+          <attvalue for="4" value="-0.32704166353504704" />
+        </attvalues>
+      </edge>
+      <edge source="Purdue" target="MichiganState" id="339" weight="0.12513732450307818">
+        <attvalues>
+          <attvalue for="3" value="-4.631079485361576" />
+          <attvalue for="4" value="0.26483161658134635" />
+        </attvalues>
+      </edge>
+      <edge source="Purdue" target="Indiana" id="340" weight="0.35081075658561767">
+        <attvalues>
+          <attvalue for="3" value="-3.498644933398265" />
+          <attvalue for="4" value="0.0789396174104382" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="ColoradoState" id="341" weight="2.581663696481554">
+        <attvalues>
+          <attvalue for="3" value="0.39396016988588634" />
+          <attvalue for="4" value="-0.3338422428723311" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="Washington" id="342" weight="3.1668751319729145">
+        <attvalues>
+          <attvalue for="3" value="0.37576278413237507" />
+          <attvalue for="4" value="-0.5007919042204692" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="Kansas" id="343" weight="0.3852924776596707">
+        <attvalues>
+          <attvalue for="3" value="-3.1927377094318494" />
+          <attvalue for="4" value="0.1338525677907022" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="IowaState" id="344" weight="0.3201494850482841">
+        <attvalues>
+          <attvalue for="3" value="-3.3697322649013284" />
+          <attvalue for="4" value="0.21597671492888537" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="Nebraska" id="345" weight="0.33356815479539187">
+        <attvalues>
+          <attvalue for="3" value="-3.2068475465251716" />
+          <attvalue for="4" value="0.13325189924281267" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="TexasA&amp;M" id="346" weight="0.2401906183530033">
+        <attvalues>
+          <attvalue for="3" value="-3.330521897918972" />
+          <attvalue for="4" value="0.17229607843909578" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="Texas" id="347" weight="0.3248219932400359">
+        <attvalues>
+          <attvalue for="3" value="-3.1911399507843523" />
+          <attvalue for="4" value="0.08307696173583734" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="Missouri" id="348" weight="0.3712635597196257">
+        <attvalues>
+          <attvalue for="3" value="-3.2377629185474737" />
+          <attvalue for="4" value="0.1709331179150243" />
+        </attvalues>
+      </edge>
+      <edge source="Colorado" target="OklahomaState" id="349" weight="0.3909609479153068">
+        <attvalues>
+          <attvalue for="3" value="-3.119187656701273" />
+          <attvalue for="4" value="0.08068803060361629" />
+        </attvalues>
+      </edge>
+      <edge source="ColoradoState" target="Nevada" id="350" weight="2.227448863121431">
+        <attvalues>
+          <attvalue for="3" value="0.4810612071848286" />
+          <attvalue for="4" value="-0.23472464619770061" />
+        </attvalues>
+      </edge>
+      <edge source="ColoradoState" target="AirForce" id="351" weight="0.3912479358860122">
+        <attvalues>
+          <attvalue for="3" value="-3.5545552317856037" />
+          <attvalue for="4" value="0.19018505448817435" />
+        </attvalues>
+      </edge>
+      <edge source="ColoradoState" target="NevadaLasVegas" id="352" weight="0.11911374675667113">
+        <attvalues>
+          <attvalue for="3" value="-5.807199398288798" />
+          <attvalue for="4" value="0.24920219452108083" />
+        </attvalues>
+      </edge>
+      <edge source="Connecticut" target="EasternMichigan" id="353" weight="0.2676114980186383">
+        <attvalues>
+          <attvalue for="3" value="-2.9823959416522414" />
+          <attvalue for="4" value="-0.052847695562024066" />
+        </attvalues>
+      </edge>
+      <edge source="Connecticut" target="Louisville" id="354" weight="3.795911331518518">
+        <attvalues>
+          <attvalue for="3" value="0.45706432994136104" />
+          <attvalue for="4" value="-0.3148318880476877" />
+        </attvalues>
+      </edge>
+      <edge source="Connecticut" target="LouisianaMonroe" id="355" weight="3.54945752753513">
+        <attvalues>
+          <attvalue for="3" value="0.4061781672114053" />
+          <attvalue for="4" value="-0.2885822043596118" />
+        </attvalues>
+      </edge>
+      <edge source="EasternMichigan" target="MiamiOhio" id="356" weight="0.2574307630140902">
+        <attvalues>
+          <attvalue for="3" value="-2.5148861711189934" />
+          <attvalue for="4" value="0.04460723027597646" />
+        </attvalues>
+      </edge>
+      <edge source="EasternMichigan" target="SouthCarolina" id="357" weight="3.347619920726711">
+        <attvalues>
+          <attvalue for="3" value="0.3430303253004152" />
+          <attvalue for="4" value="-0.36556178020061836" />
+        </attvalues>
+      </edge>
+      <edge source="EasternMichigan" target="Temple" id="358" weight="2.429045987428629">
+        <attvalues>
+          <attvalue for="3" value="0.33452765669059936" />
+          <attvalue for="4" value="-0.22984055987567453" />
+        </attvalues>
+      </edge>
+      <edge source="EasternMichigan" target="Toledo" id="359" weight="0.2726932759851981">
+        <attvalues>
+          <attvalue for="3" value="-3.089286703581527" />
+          <attvalue for="4" value="0.1903087994741255" />
+        </attvalues>
+      </edge>
+      <edge source="EastCarolina" target="Duke" id="360" weight="2.8162454462404694">
+        <attvalues>
+          <attvalue for="3" value="0.24538027689079478" />
+          <attvalue for="4" value="-0.32425493935153393" />
+        </attvalues>
+      </edge>
+      <edge source="EastCarolina" target="Houston" id="361" weight="0.43070788219862666">
+        <attvalues>
+          <attvalue for="3" value="-3.597036130115094" />
+          <attvalue for="4" value="0.08187174120932295" />
+        </attvalues>
+      </edge>
+      <edge source="EastCarolina" target="Louisville" id="362" weight="0.2195761628742483">
+        <attvalues>
+          <attvalue for="3" value="-3.997002712847194" />
+          <attvalue for="4" value="0.17850999308047422" />
+        </attvalues>
+      </edge>
+      <edge source="EastCarolina" target="Memphis" id="363" weight="0.3833376982453414">
+        <attvalues>
+          <attvalue for="3" value="-3.5405948730574393" />
+          <attvalue for="4" value="0.1192129693081061" />
+        </attvalues>
+      </edge>
+      <edge source="EastCarolina" target="SouthernMississippi" id="364" weight="0.4495886397322541">
+        <attvalues>
+          <attvalue for="3" value="-3.3686060038239116" />
+          <attvalue for="4" value="0.11250440954552188" />
+        </attvalues>
+      </edge>
+      <edge source="EastCarolina" target="Tulane" id="365" weight="0.2594134843969563">
+        <attvalues>
+          <attvalue for="3" value="-4.034336799927253" />
+          <attvalue for="4" value="0.13098140102040512" />
+        </attvalues>
+      </edge>
+      <edge source="EastCarolina" target="Army" id="366" weight="0.15664957454105238">
+        <attvalues>
+          <attvalue for="3" value="-4.711188382854948" />
+          <attvalue for="4" value="0.15767432994457076" />
+        </attvalues>
+      </edge>
+      <edge source="EastCarolina" target="AlabamaBirmingham" id="367" weight="0.4107819791136951">
+        <attvalues>
+          <attvalue for="3" value="-3.5247005795493305" />
+          <attvalue for="4" value="0.08068899825364362" />
+        </attvalues>
+      </edge>
+      <edge source="Duke" target="Vanderbilt" id="368" weight="2.4194418341184414">
+        <attvalues>
+          <attvalue for="3" value="0.31309926956409473" />
+          <attvalue for="4" value="-0.2294231552684094" />
+        </attvalues>
+      </edge>
+      <edge source="Duke" target="NorthCarolina" id="369" weight="0.27501512760707836">
+        <attvalues>
+          <attvalue for="3" value="-4.016527822957438" />
+          <attvalue for="4" value="0.25851814704532206" />
+        </attvalues>
+      </edge>
+      <edge source="Duke" target="Clemson" id="370" weight="0.18907078867716054">
+        <attvalues>
+          <attvalue for="3" value="-4.6960922419193185" />
+          <attvalue for="4" value="0.3118923779930909" />
+        </attvalues>
+      </edge>
+      <edge source="Duke" target="WakeForest" id="371" weight="0.1816668119524645">
+        <attvalues>
+          <attvalue for="3" value="-4.797793639082999" />
+          <attvalue for="4" value="0.36623942496946693" />
+        </attvalues>
+      </edge>
+      <edge source="Duke" target="Maryland" id="372" weight="0.24122345580188212">
+        <attvalues>
+          <attvalue for="3" value="-4.1101482010267745" />
+          <attvalue for="4" value="0.2663014088228771" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="Rice" id="374" weight="0.2635210779373282">
+        <attvalues>
+          <attvalue for="3" value="-3.9612281022424307" />
+          <attvalue for="4" value="0.22195816908115962" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="SouthernMethodist" id="375" weight="0.4408470079994505">
+        <attvalues>
+          <attvalue for="3" value="-4.43368184700935" />
+          <attvalue for="4" value="0.07782167421488473" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="Nevada" id="376" weight="0.16813043450766604">
+        <attvalues>
+          <attvalue for="3" value="-4.911040118765183" />
+          <attvalue for="4" value="0.21057786444498228" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="SanJoseState" id="377" weight="0.042959353297475085">
+        <attvalues>
+          <attvalue for="3" value="-11.395584217016115" />
+          <attvalue for="4" value="0.3557155491780799" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="TexasElPaso" id="378" weight="0.2808582774683615">
+        <attvalues>
+          <attvalue for="3" value="-6.519336988490998" />
+          <attvalue for="4" value="0.13083509731840404" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="Tulsa" id="379" weight="0.3313810620826895">
+        <attvalues>
+          <attvalue for="3" value="-4.049082340746371" />
+          <attvalue for="4" value="0.11847344690018158" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="TexasChristian" id="380" weight="0.19477630321979078">
+        <attvalues>
+          <attvalue for="3" value="-4.7115367835128" />
+          <attvalue for="4" value="0.17442493740457188" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="California" id="381" weight="2.162834362947941">
+        <attvalues>
+          <attvalue for="3" value="0.4657409407884765" />
+          <attvalue for="4" value="-0.3199493687810313" />
+        </attvalues>
+      </edge>
+      <edge source="FresnoState" target="Hawaii" id="382" weight="0.23266282747736647">
+        <attvalues>
+          <attvalue for="3" value="-4.173061455288616" />
+          <attvalue for="4" value="0.26356639876566657" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="Rice" id="387" weight="2.7272026246146095">
+        <attvalues>
+          <attvalue for="3" value="0.37881284606203447" />
+          <attvalue for="4" value="-0.3731509458188147" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="SouthernMethodist" id="388" weight="2.641592651749572">
+        <attvalues>
+          <attvalue for="3" value="0.4772697375242073" />
+          <attvalue for="4" value="-0.2759119657567892" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="Louisville" id="389" weight="0.3392771007625977">
+        <attvalues>
+          <attvalue for="3" value="-3.659788767548765" />
+          <attvalue for="4" value="0.12443793639166145" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="Memphis" id="390" weight="0.2837467695275417">
+        <attvalues>
+          <attvalue for="3" value="-3.6525531759294134" />
+          <attvalue for="4" value="0.13027116153487728" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="SouthernMississippi" id="391" weight="0.20300883893254926">
+        <attvalues>
+          <attvalue for="3" value="-4.038617277922701" />
+          <attvalue for="4" value="0.18042401559736354" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="Tulane" id="392" weight="0.15729610171993175">
+        <attvalues>
+          <attvalue for="3" value="-4.565091089716418" />
+          <attvalue for="4" value="0.35163499957375466" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="Army" id="393" weight="0.36329717785216953">
+        <attvalues>
+          <attvalue for="3" value="-3.6056177789403305" />
+          <attvalue for="4" value="0.04445715186583077" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="Cincinnati" id="394" weight="0.3743684819476897">
+        <attvalues>
+          <attvalue for="3" value="-3.6417495418142583" />
+          <attvalue for="4" value="0.12686760653540907" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="LouisianaState" id="395" weight="2.3950511955950535">
+        <attvalues>
+          <attvalue for="3" value="0.04881142876069644" />
+          <attvalue for="4" value="-0.2776056392564765" />
+        </attvalues>
+      </edge>
+      <edge source="Houston" target="Texas" id="396" weight="3.281768373597961">
+        <attvalues>
+          <attvalue for="3" value="0.3471328643826149" />
+          <attvalue for="4" value="-0.45461965207969435" />
+        </attvalues>
+      </edge>
+      <edge source="Rice" target="SouthernMethodist" id="397" weight="0.0891000630555878">
+        <attvalues>
+          <attvalue for="3" value="-7.057318808519366" />
+          <attvalue for="4" value="0.3316485511386642" />
+        </attvalues>
+      </edge>
+      <edge source="Rice" target="Nevada" id="398" weight="0.30308642305804634">
+        <attvalues>
+          <attvalue for="3" value="-3.987168655747791" />
+          <attvalue for="4" value="0.16020249113497154" />
+        </attvalues>
+      </edge>
+      <edge source="Rice" target="SanJoseState" id="399" weight="0.2506061761766683">
+        <attvalues>
+          <attvalue for="3" value="-4.070518666619301" />
+          <attvalue for="4" value="0.3049449369474091" />
+        </attvalues>
+      </edge>
+      <edge source="Rice" target="TexasElPaso" id="400" weight="0.17628935311370517">
+        <attvalues>
+          <attvalue for="3" value="-4.853989044690648" />
+          <attvalue for="4" value="0.31112157696558373" />
+        </attvalues>
+      </edge>
+      <edge source="Rice" target="Oklahoma" id="401" weight="2.331788391140948">
+        <attvalues>
+          <attvalue for="3" value="0.23793974504248605" />
+          <attvalue for="4" value="-0.14052553532606593" />
+        </attvalues>
+      </edge>
+      <edge source="Rice" target="Tulsa" id="402" weight="0.19784134418391144">
+        <attvalues>
+          <attvalue for="3" value="-5.593100946865385" />
+          <attvalue for="4" value="0.23859994802693296" />
+        </attvalues>
+      </edge>
+      <edge source="Rice" target="TexasChristian" id="403" weight="0.1488256308388279">
+        <attvalues>
+          <attvalue for="3" value="-5.1960889452665455" />
+          <attvalue for="4" value="0.3537928477920994" />
+        </attvalues>
+      </edge>
+      <edge source="Rice" target="Hawaii" id="404" weight="0.12402819211236006">
+        <attvalues>
+          <attvalue for="3" value="-5.848820012701312" />
+          <attvalue for="4" value="0.2616752338663533" />
+        </attvalues>
+      </edge>
+      <edge source="Idaho" target="Washington" id="405" weight="2.024760851309724">
+        <attvalues>
+          <attvalue for="3" value="0.4288294492972805" />
+          <attvalue for="4" value="-0.13734238889274852" />
+        </attvalues>
+      </edge>
+      <edge source="Idaho" target="Oregon" id="406" weight="2.169970497410567">
+        <attvalues>
+          <attvalue for="3" value="0.2089636859912195" />
+          <attvalue for="4" value="-0.19532639631742965" />
+        </attvalues>
+      </edge>
+      <edge source="Idaho" target="NewMexicoState" id="407" weight="0.322930201527116">
+        <attvalues>
+          <attvalue for="3" value="-3.8811328008326553" />
+          <attvalue for="4" value="-0.06624853121942387" />
+        </attvalues>
+      </edge>
+      <edge source="Idaho" target="WashingtonState" id="408" weight="2.032336518110084">
+        <attvalues>
+          <attvalue for="3" value="0.3966099607956506" />
+          <attvalue for="4" value="-0.09177520961015206" />
+        </attvalues>
+      </edge>
+      <edge source="Idaho" target="UtahState" id="409" weight="0.2198640927643063">
+        <attvalues>
+          <attvalue for="3" value="-4.3312030106758685" />
+          <attvalue for="4" value="0.16038995864847028" />
+        </attvalues>
+      </edge>
+      <edge source="Washington" target="Oregon" id="410" weight="0.23103168032785412">
+        <attvalues>
+          <attvalue for="3" value="-4.688646333949693" />
+          <attvalue for="4" value="0.26043288667080144" />
+        </attvalues>
+      </edge>
+      <edge source="Washington" target="Stanford" id="411" weight="0.033811248187846386">
+        <attvalues>
+          <attvalue for="3" value="-13.557630540720554" />
+          <attvalue for="4" value="0.22016788193272008" />
+        </attvalues>
+      </edge>
+      <edge source="Washington" target="WashingtonState" id="412" weight="0.226119437999004">
+        <attvalues>
+          <attvalue for="3" value="-4.06067009603417" />
+          <attvalue for="4" value="0.26344100570000384" />
+        </attvalues>
+      </edge>
+      <edge source="Washington" target="MiamiFlorida" id="413" weight="3.5067813180283838">
+        <attvalues>
+          <attvalue for="3" value="0.3064571051162439" />
+          <attvalue for="4" value="-0.6231294782432932" />
+        </attvalues>
+      </edge>
+      <edge source="Washington" target="OregonState" id="414" weight="0.28480714998920154">
+        <attvalues>
+          <attvalue for="3" value="-3.7581715182411983" />
+          <attvalue for="4" value="0.26093985052721624" />
+        </attvalues>
+      </edge>
+      <edge source="Washington" target="California" id="415" weight="0.2823517885276014">
+        <attvalues>
+          <attvalue for="3" value="-5.428704934905727" />
+          <attvalue for="4" value="0.17777668330548568" />
+        </attvalues>
+      </edge>
+      <edge source="Kansas" target="SouthernMethodist" id="416" weight="2.2752930649247975">
+        <attvalues>
+          <attvalue for="3" value="0.32719297406385295" />
+          <attvalue for="4" value="-0.30076103605232274" />
+        </attvalues>
+      </edge>
+      <edge source="Kansas" target="IowaState" id="417" weight="0.3922134010999151">
+        <attvalues>
+          <attvalue for="3" value="-3.245034204496526" />
+          <attvalue for="4" value="0.09406856607693248" />
+        </attvalues>
+      </edge>
+      <edge source="Kansas" target="Nebraska" id="418" weight="0.2341531761594807">
+        <attvalues>
+          <attvalue for="3" value="-3.7823773549389257" />
+          <attvalue for="4" value="0.23036263088461917" />
+        </attvalues>
+      </edge>
+      <edge source="Kansas" target="Oklahoma" id="419" weight="0.17717224425724637">
+        <attvalues>
+          <attvalue for="3" value="-3.696953606577847" />
+          <attvalue for="4" value="0.1837692500848559" />
+        </attvalues>
+      </edge>
+      <edge source="Kansas" target="Texas" id="420" weight="0.16643643370405853">
+        <attvalues>
+          <attvalue for="3" value="-3.832613625610679" />
+          <attvalue for="4" value="0.21956704494781842" />
+        </attvalues>
+      </edge>
+      <edge source="Kansas" target="Missouri" id="421" weight="0.3071199917835572">
+        <attvalues>
+          <attvalue for="3" value="-3.395731159881068" />
+          <attvalue for="4" value="0.19140536847270173" />
+        </attvalues>
+      </edge>
+      <edge source="Kansas" target="AlabamaBirmingham" id="422" weight="3.316978818587185">
+        <attvalues>
+          <attvalue for="3" value="0.32449569889191165" />
+          <attvalue for="4" value="-0.4558172727906511" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMethodist" target="Nevada" id="423" weight="0.3447209041124055">
+        <attvalues>
+          <attvalue for="3" value="-3.8478356191844165" />
+          <attvalue for="4" value="0.11389825103935691" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMethodist" target="SanJoseState" id="424" weight="0.4006044686678397">
+        <attvalues>
+          <attvalue for="3" value="-4.312298865330792" />
+          <attvalue for="4" value="0.1979177369817997" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMethodist" target="TexasElPaso" id="425" weight="0.23526817250072954">
+        <attvalues>
+          <attvalue for="3" value="-4.519706703873869" />
+          <attvalue for="4" value="0.24642113900369245" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMethodist" target="Tulane" id="426" weight="2.8336205085007147">
+        <attvalues>
+          <attvalue for="3" value="0.2689662386759192" />
+          <attvalue for="4" value="-0.32141367200450754" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMethodist" target="Tulsa" id="427" weight="0.0825643683976503">
+        <attvalues>
+          <attvalue for="3" value="-7.690742848260722" />
+          <attvalue for="4" value="0.23659940631285126" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMethodist" target="TexasChristian" id="428" weight="0.2610356843565852">
+        <attvalues>
+          <attvalue for="3" value="-4.561332273295434" />
+          <attvalue for="4" value="0.2522794914629235" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMethodist" target="Hawaii" id="429" weight="0.26614200071432736">
+        <attvalues>
+          <attvalue for="3" value="-5.337230077091817" />
+          <attvalue for="4" value="0.20480117080190796" />
+        </attvalues>
+      </edge>
+      <edge source="Kent" target="Pittsburgh" id="430" weight="2.3123166682805554">
+        <attvalues>
+          <attvalue for="3" value="0.46061925079149224" />
+          <attvalue for="4" value="-0.2002679115348509" />
+        </attvalues>
+      </edge>
+      <edge source="Kent" target="MiamiOhio" id="431" weight="0.2911732372649636">
+        <attvalues>
+          <attvalue for="3" value="-3.1763560610916226" />
+          <attvalue for="4" value="0.21249838560683476" />
+        </attvalues>
+      </edge>
+      <edge source="Kent" target="Ohio" id="432" weight="0.284103055709099">
+        <attvalues>
+          <attvalue for="3" value="-3.2447080887658473" />
+          <attvalue for="4" value="0.34294589302605727" />
+        </attvalues>
+      </edge>
+      <edge source="Kent" target="Marshall" id="433" weight="0.1295801054384222">
+        <attvalues>
+          <attvalue for="3" value="-3.7114941698135064" />
+          <attvalue for="4" value="0.3930628307427919" />
+        </attvalues>
+      </edge>
+      <edge source="Pittsburgh" target="Temple" id="434" weight="0.05516533308739299">
+        <attvalues>
+          <attvalue for="3" value="-8.655948353377088" />
+          <attvalue for="4" value="0.30414317566199023" />
+        </attvalues>
+      </edge>
+      <edge source="Pittsburgh" target="NorthCarolina" id="435" weight="2.028619165432299">
+        <attvalues>
+          <attvalue for="3" value="0.23273648824137072" />
+          <attvalue for="4" value="-0.23505555158162084" />
+        </attvalues>
+      </edge>
+      <edge source="Pittsburgh" target="Rutgers" id="436" weight="0.11290985727863319">
+        <attvalues>
+          <attvalue for="3" value="-6.993095575794698" />
+          <attvalue for="4" value="0.23703172575298193" />
+        </attvalues>
+      </edge>
+      <edge source="Pittsburgh" target="MiamiFlorida" id="437" weight="0.27989873529145826">
+        <attvalues>
+          <attvalue for="3" value="-3.764695196580141" />
+          <attvalue for="4" value="0.22157094240774045" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="Louisville" id="438" weight="2.308942765144773">
+        <attvalues>
+          <attvalue for="3" value="0.16263983284850025" />
+          <attvalue for="4" value="-0.11554132408716833" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="Vanderbilt" id="439" weight="0.3012703553946287">
+        <attvalues>
+          <attvalue for="3" value="-3.323075846338119" />
+          <attvalue for="4" value="0.17628172967850542" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="MississippiState" id="440" weight="0.2538102777793443">
+        <attvalues>
+          <attvalue for="3" value="-3.511727173012381" />
+          <attvalue for="4" value="0.16706592751216576" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="SouthCarolina" id="441" weight="0.3193797969045169">
+        <attvalues>
+          <attvalue for="3" value="-3.3922867607835094" />
+          <attvalue for="4" value="0.18373332256460684" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="Tennessee" id="442" weight="0.20574190017933722">
+        <attvalues>
+          <attvalue for="3" value="-3.5036651175566345" />
+          <attvalue for="4" value="0.25618549343570973" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="Mississippi" id="443" weight="0.31928583479612105">
+        <attvalues>
+          <attvalue for="3" value="-3.2470581312751685" />
+          <attvalue for="4" value="0.16240196385624905" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="Georgia" id="444" weight="0.3583843386454235">
+        <attvalues>
+          <attvalue for="3" value="-3.145338854789692" />
+          <attvalue for="4" value="0.23655751060744767" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="LouisianaState" id="445" weight="0.2330625663537739">
+        <attvalues>
+          <attvalue for="3" value="-3.263229276588082" />
+          <attvalue for="4" value="0.2428189143249213" />
+        </attvalues>
+      </edge>
+      <edge source="Kentucky" target="Indiana" id="446" weight="3.6809519658244585">
+        <attvalues>
+          <attvalue for="3" value="0.5078491473158541" />
+          <attvalue for="4" value="-0.5326754972865919" />
+        </attvalues>
+      </edge>
+      <edge source="Louisville" target="SouthernMississippi" id="447" weight="0.2828888242469557">
+        <attvalues>
+          <attvalue for="3" value="-3.886292520739488" />
+          <attvalue for="4" value="0.14286737853580234" />
+        </attvalues>
+      </edge>
+      <edge source="Louisville" target="Tulane" id="448" weight="0.2191738211197089">
+        <attvalues>
+          <attvalue for="3" value="-4.212570179681315" />
+          <attvalue for="4" value="0.20627540056324656" />
+        </attvalues>
+      </edge>
+      <edge source="Louisville" target="Army" id="449" weight="0.27142097040656155">
+        <attvalues>
+          <attvalue for="3" value="-3.8036957812785133" />
+          <attvalue for="4" value="0.184443791834223" />
+        </attvalues>
+      </edge>
+      <edge source="Louisville" target="Cincinnati" id="450" weight="0.21671688749251">
+        <attvalues>
+          <attvalue for="3" value="-4.183922346413643" />
+          <attvalue for="4" value="0.17391070231383243" />
+        </attvalues>
+      </edge>
+      <edge source="Louisville" target="AlabamaBirmingham" id="451" weight="0.2944060389386589">
+        <attvalues>
+          <attvalue for="3" value="-3.807634955107522" />
+          <attvalue for="4" value="0.1911040160552897" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaTech" target="LouisianaMonroe" id="452" weight="0.20861312574478913">
+        <attvalues>
+          <attvalue for="3" value="-4.616039400308513" />
+          <attvalue for="4" value="-0.07536103162448793" />
+          <attvalue for="5" value="{('MiddleTennesseeState', 'LouisianaTech'): {'ricciCurvature': -6.685437643049366, 'original_RC': -0.0813839937980314, 'id': '453', 'weight': 0.15504622396561427}}" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaTech" target="Tulsa" id="454" weight="3.211176777334214">
+        <attvalues>
+          <attvalue for="3" value="0.33264716321117027" />
+          <attvalue for="4" value="-0.4335681083137439" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaTech" target="LouisianaLafayette" id="455" weight="0.27325979799049827">
+        <attvalues>
+          <attvalue for="3" value="-4.412721098094242" />
+          <attvalue for="4" value="-0.18770818275147105" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaTech" target="MiamiFlorida" id="456" weight="3.43302223150199">
+        <attvalues>
+          <attvalue for="3" value="0.28450210022198663" />
+          <attvalue for="4" value="-0.4513951683528292" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaTech" target="Hawaii" id="457" weight="3.177069215486798">
+        <attvalues>
+          <attvalue for="3" value="0.3533622444621267" />
+          <attvalue for="4" value="-0.41924873542163055" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="Minnesota" id="458" weight="2.8344021960090307">
+        <attvalues>
+          <attvalue for="3" value="0.2085834132033758" />
+          <attvalue for="4" value="-0.36984925504696076" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="Memphis" id="460" weight="2.1428818092312727">
+        <attvalues>
+          <attvalue for="3" value="0.05417777460593265" />
+          <attvalue for="4" value="-0.18286937872901765" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="Tennessee" id="461" weight="1.899308253003117">
+        <attvalues>
+          <attvalue for="3" value="0.05297408459571873" />
+          <attvalue for="4" value="-0.058968988110751575" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="LouisianaLafayette" id="462" weight="0.30775889374851545">
+        <attvalues>
+          <attvalue for="3" value="-4.258533030008364" />
+          <attvalue for="4" value="-0.07094594050671721" />
+          <attvalue for="5" value="{('MiddleTennesseeState', 'LouisianaLafayette'): {'ricciCurvature': -5.949731894129889, 'original_RC': -0.1812682069897138, 'id': '478', 'weight': 0.2524969496550694}}" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="Arkansas" id="463" weight="1.9819188664622553">
+        <attvalues>
+          <attvalue for="3" value="-0.0660398903754873" />
+          <attvalue for="4" value="-0.13769636834160504" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="Illinois" id="476" weight="2.933890628594458">
+        <attvalues>
+          <attvalue for="3" value="0.13805480547989357" />
+          <attvalue for="4" value="-0.46015147705975634" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="MississippiState" id="477" weight="1.9181670843290313">
+        <attvalues>
+          <attvalue for="3" value="0.049134240387428085" />
+          <attvalue for="4" value="-0.13000097909177155" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="Maryland" id="479" weight="2.8525066367904177">
+        <attvalues>
+          <attvalue for="3" value="0.2091199346442678" />
+          <attvalue for="4" value="-0.3792033041230862" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaMonroe" target="AlabamaBirmingham" id="480" weight="2.106734785513571">
+        <attvalues>
+          <attvalue for="3" value="0.1136673939780174" />
+          <attvalue for="4" value="-0.11382099034135917" />
+        </attvalues>
+      </edge>
+      <edge source="Minnesota" target="Illinois" id="464" weight="0.2630561705349712">
+        <attvalues>
+          <attvalue for="3" value="-3.58299324505883" />
+          <attvalue for="4" value="0.1293377191037991" />
+        </attvalues>
+      </edge>
+      <edge source="Minnesota" target="Ohio" id="465" weight="2.2634468625667257">
+        <attvalues>
+          <attvalue for="3" value="0.2878269840846551" />
+          <attvalue for="4" value="-0.1810295137078486" />
+        </attvalues>
+      </edge>
+      <edge source="Minnesota" target="Indiana" id="466" weight="0.32325346618492573">
+        <attvalues>
+          <attvalue for="3" value="-3.536492022712796" />
+          <attvalue for="4" value="0.16855481074015644" />
+        </attvalues>
+      </edge>
+      <edge source="MiamiOhio" target="Vanderbilt" id="467" weight="3.3963861867366854">
+        <attvalues>
+          <attvalue for="3" value="0.3229866967119094" />
+          <attvalue for="4" value="-0.4611983702838174" />
+        </attvalues>
+      </edge>
+      <edge source="MiamiOhio" target="Ohio" id="468" weight="0.35647441762128323">
+        <attvalues>
+          <attvalue for="3" value="-3.1174994009167145" />
+          <attvalue for="4" value="0.18011197458671713" />
+        </attvalues>
+      </edge>
+      <edge source="MiamiOhio" target="Cincinnati" id="469" weight="3.7438698533924195">
+        <attvalues>
+          <attvalue for="3" value="0.4731411189906931" />
+          <attvalue for="4" value="-0.5016538861232958" />
+        </attvalues>
+      </edge>
+      <edge source="MiamiOhio" target="Marshall" id="470" weight="0.24941802699100526">
+        <attvalues>
+          <attvalue for="3" value="-3.220245373338014" />
+          <attvalue for="4" value="0.22566259550752976" />
+        </attvalues>
+      </edge>
+      <edge source="Vanderbilt" target="SouthCarolina" id="471" weight="0.09693711637284268">
+        <attvalues>
+          <attvalue for="3" value="-4.798849472186888" />
+          <attvalue for="4" value="0.2208526484551958" />
+        </attvalues>
+      </edge>
+      <edge source="Vanderbilt" target="Tennessee" id="472" weight="0.3748287028169592">
+        <attvalues>
+          <attvalue for="3" value="-3.277716835273706" />
+          <attvalue for="4" value="0.1257927261747246" />
+        </attvalues>
+      </edge>
+      <edge source="Vanderbilt" target="Mississippi" id="473" weight="0.4020459804854449">
+        <attvalues>
+          <attvalue for="3" value="-3.1142932890991375" />
+          <attvalue for="4" value="0.08491417224689868" />
+        </attvalues>
+      </edge>
+      <edge source="Vanderbilt" target="Georgia" id="474" weight="0.23004994765016132">
+        <attvalues>
+          <attvalue for="3" value="-3.644097634441703" />
+          <attvalue for="4" value="0.22568927684546247" />
+        </attvalues>
+      </edge>
+      <edge source="Vanderbilt" target="WakeForest" id="475" weight="2.3738402432418906">
+        <attvalues>
+          <attvalue for="3" value="0.36452305348756386" />
+          <attvalue for="4" value="-0.24860898880914117" />
+        </attvalues>
+      </edge>
+      <edge source="Illinois" target="MichiganState" id="481" weight="0.3789886779769065">
+        <attvalues>
+          <attvalue for="3" value="-3.6921504386533366" />
+          <attvalue for="4" value="0.08379921564664294" />
+        </attvalues>
+      </edge>
+      <edge source="Illinois" target="Indiana" id="482" weight="0.3459889541396748">
+        <attvalues>
+          <attvalue for="3" value="-3.481718529228848" />
+          <attvalue for="4" value="0.08406015190482452" />
+        </attvalues>
+      </edge>
+      <edge source="Illinois" target="California" id="483" weight="2.5908429175853755">
+        <attvalues>
+          <attvalue for="3" value="0.3365419198757036" />
+          <attvalue for="4" value="-0.36585781077693547" />
+        </attvalues>
+      </edge>
+      <edge source="MississippiState" target="Memphis" id="484" weight="2.144132054085602">
+        <attvalues>
+          <attvalue for="3" value="0.3684245300529344" />
+          <attvalue for="4" value="-0.11049743430728665" />
+        </attvalues>
+      </edge>
+      <edge source="MississippiState" target="SouthCarolina" id="485" weight="0.34575869511063245">
+        <attvalues>
+          <attvalue for="3" value="-3.235163344531598" />
+          <attvalue for="4" value="0.11514810404353537" />
+        </attvalues>
+      </edge>
+      <edge source="MississippiState" target="Mississippi" id="486" weight="0.09103900582846639">
+        <attvalues>
+          <attvalue for="3" value="-4.945989549367998" />
+          <attvalue for="4" value="0.2621573959536859" />
+        </attvalues>
+      </edge>
+      <edge source="MississippiState" target="LouisianaState" id="487" weight="0.2014704074565293">
+        <attvalues>
+          <attvalue for="3" value="-3.7176858563828103" />
+          <attvalue for="4" value="0.30762630701124216" />
+        </attvalues>
+      </edge>
+      <edge source="MississippiState" target="Arkansas" id="488" weight="0.15059321480815022">
+        <attvalues>
+          <attvalue for="3" value="-3.9922381915138097" />
+          <attvalue for="4" value="0.26035901249671056" />
+        </attvalues>
+      </edge>
+      <edge source="Memphis" target="SouthernMississippi" id="489" weight="0.09728151376388824">
+        <attvalues>
+          <attvalue for="3" value="-5.966439277268392" />
+          <attvalue for="4" value="0.27110197190974783" />
+        </attvalues>
+      </edge>
+      <edge source="Memphis" target="Tennessee" id="490" weight="2.0763010818723746">
+        <attvalues>
+          <attvalue for="3" value="0.46798809389092566" />
+          <attvalue for="4" value="-0.09943044906767184" />
+        </attvalues>
+      </edge>
+      <edge source="Memphis" target="Tulane" id="491" weight="0.1797717768107835">
+        <attvalues>
+          <attvalue for="3" value="-4.435528310658735" />
+          <attvalue for="4" value="0.17629022492917212" />
+        </attvalues>
+      </edge>
+      <edge source="Memphis" target="Army" id="492" weight="0.2806903684310823">
+        <attvalues>
+          <attvalue for="3" value="-3.8642060545099266" />
+          <attvalue for="4" value="0.08428971074261715" />
+        </attvalues>
+      </edge>
+      <edge source="Memphis" target="Cincinnati" id="493" weight="0.40146736786394355">
+        <attvalues>
+          <attvalue for="3" value="-3.495818465027318" />
+          <attvalue for="4" value="0.11776618755444646" />
+        </attvalues>
+      </edge>
+      <edge source="Memphis" target="AlabamaBirmingham" id="494" weight="0.10117251439512867">
+        <attvalues>
+          <attvalue for="3" value="-5.643817237896396" />
+          <attvalue for="4" value="0.2182665239867838" />
+        </attvalues>
+      </edge>
+      <edge source="Nevada" target="Oregon" id="495" weight="2.3527999684466003">
+        <attvalues>
+          <attvalue for="3" value="0.23593933209812745" />
+          <attvalue for="4" value="-0.307166372679625" />
+        </attvalues>
+      </edge>
+      <edge source="Nevada" target="SanJoseState" id="496" weight="0.13735451475758073">
+        <attvalues>
+          <attvalue for="3" value="-5.454146738656873" />
+          <attvalue for="4" value="0.23841898562041153" />
+        </attvalues>
+      </edge>
+      <edge source="Nevada" target="TexasElPaso" id="497" weight="0.22578820542575415">
+        <attvalues>
+          <attvalue for="3" value="-4.315322388933253" />
+          <attvalue for="4" value="0.21060409920627077" />
+        </attvalues>
+      </edge>
+      <edge source="Nevada" target="Tulsa" id="498" weight="0.339812520676553">
+        <attvalues>
+          <attvalue for="3" value="-3.8439349708357975" />
+          <attvalue for="4" value="0.16012273950572697" />
+        </attvalues>
+      </edge>
+      <edge source="Nevada" target="NevadaLasVegas" id="499" weight="2.3418880214645426">
+        <attvalues>
+          <attvalue for="3" value="0.3316732339173729" />
+          <attvalue for="4" value="-0.1907567491626403" />
+        </attvalues>
+      </edge>
+      <edge source="Nevada" target="TexasChristian" id="500" weight="0.2619193499661861">
+        <attvalues>
+          <attvalue for="3" value="-4.139435357308177" />
+          <attvalue for="4" value="0.19997690871441398" />
+        </attvalues>
+      </edge>
+      <edge source="Nevada" target="Hawaii" id="501" weight="0.26084779485703796">
+        <attvalues>
+          <attvalue for="3" value="-4.049440611783554" />
+          <attvalue for="4" value="0.3299932366669329" />
+        </attvalues>
+      </edge>
+      <edge source="Oregon" target="WashingtonState" id="502" weight="0.21211331590735188">
+        <attvalues>
+          <attvalue for="3" value="-4.785211328923898" />
+          <attvalue for="4" value="0.2603205853139464" />
+        </attvalues>
+      </edge>
+      <edge source="Oregon" target="OregonState" id="503" weight="0.25274816159044267">
+        <attvalues>
+          <attvalue for="3" value="-5.519229401083087" />
+          <attvalue for="4" value="0.21650150039328642" />
+        </attvalues>
+      </edge>
+      <edge source="Oregon" target="California" id="504" weight="0.0039469964386713635">
+        <attvalues>
+          <attvalue for="3" value="-85.33259650495353" />
+          <attvalue for="4" value="0.2628045638439209" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexicoState" target="SouthCarolina" id="505" weight="2.7982537369622094">
+        <attvalues>
+          <attvalue for="3" value="0.17051362171221562" />
+          <attvalue for="4" value="-0.4109069675585624" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexicoState" target="TexasElPaso" id="506" weight="2.656852349163466">
+        <attvalues>
+          <attvalue for="3" value="0.13107020481712506" />
+          <attvalue for="4" value="-0.3643792159692747" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexicoState" target="Tulsa" id="507" weight="2.551426323324546">
+        <attvalues>
+          <attvalue for="3" value="0.24823623458079125" />
+          <attvalue for="4" value="-0.3529917308795758" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexicoState" target="UtahState" id="508" weight="0.27147249270785484">
+        <attvalues>
+          <attvalue for="3" value="-4.221639306822199" />
+          <attvalue for="4" value="-0.0008394344413877874" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexicoState" target="Army" id="509" weight="2.9183143936425275">
+        <attvalues>
+          <attvalue for="3" value="0.19980883748654032" />
+          <attvalue for="4" value="-0.3734508906492162" />
+        </attvalues>
+      </edge>
+      <edge source="NewMexicoState" target="Georgia" id="510" weight="2.6590353019263473">
+        <attvalues>
+          <attvalue for="3" value="0.3032822863818314" />
+          <attvalue for="4" value="-0.3438593325214956" />
+        </attvalues>
+      </edge>
+      <edge source="SouthCarolina" target="Tennessee" id="511" weight="0.36308132706894614">
+        <attvalues>
+          <attvalue for="3" value="-3.2339003870257006" />
+          <attvalue for="4" value="0.1632767604484009" />
+        </attvalues>
+      </edge>
+      <edge source="SouthCarolina" target="Georgia" id="512" weight="0.15090457023796003">
+        <attvalues>
+          <attvalue for="3" value="-3.838778473166524" />
+          <attvalue for="4" value="0.32076609033093584" />
+        </attvalues>
+      </edge>
+      <edge source="SouthCarolina" target="Clemson" id="513" weight="2.561086059236805">
+        <attvalues>
+          <attvalue for="3" value="0.1588556029889132" />
+          <attvalue for="4" value="-0.2969269260926801" />
+        </attvalues>
+      </edge>
+      <edge source="SouthCarolina" target="Arkansas" id="514" weight="0.2671975140515397">
+        <attvalues>
+          <attvalue for="3" value="-3.300839118940173" />
+          <attvalue for="4" value="0.16246654812705397" />
+        </attvalues>
+      </edge>
+      <edge source="Ohio" target="IowaState" id="515" weight="3.830017326053351">
+        <attvalues>
+          <attvalue for="3" value="0.47484978242076914" />
+          <attvalue for="4" value="-0.4778458008814519" />
+        </attvalues>
+      </edge>
+      <edge source="Ohio" target="Marshall" id="516" weight="0.26216653921213345">
+        <attvalues>
+          <attvalue for="3" value="-3.41861334655656" />
+          <attvalue for="4" value="0.2421940683003383" />
+        </attvalues>
+      </edge>
+      <edge source="IowaState" target="Nebraska" id="517" weight="0.1920102364602422">
+        <attvalues>
+          <attvalue for="3" value="-3.88296358299798" />
+          <attvalue for="4" value="0.22391857995524345" />
+        </attvalues>
+      </edge>
+      <edge source="IowaState" target="TexasA&amp;M" id="518" weight="0.22096778054389254">
+        <attvalues>
+          <attvalue for="3" value="-3.6529033012637244" />
+          <attvalue for="4" value="0.12771013963538058" />
+        </attvalues>
+      </edge>
+      <edge source="IowaState" target="Missouri" id="519" weight="0.23806102123667758">
+        <attvalues>
+          <attvalue for="3" value="-3.712651016096105" />
+          <attvalue for="4" value="0.2211150314014464" />
+        </attvalues>
+      </edge>
+      <edge source="IowaState" target="NevadaLasVegas" id="520" weight="2.819899219605674">
+        <attvalues>
+          <attvalue for="3" value="0.14663519394989177" />
+          <attvalue for="4" value="-0.36430915439337386" />
+        </attvalues>
+      </edge>
+      <edge source="IowaState" target="OklahomaState" id="521" weight="0.39527247117131287">
+        <attvalues>
+          <attvalue for="3" value="-3.2314621197681017" />
+          <attvalue for="4" value="0.07765201052166681" />
+        </attvalues>
+      </edge>
+      <edge source="SanJoseState" target="Nebraska" id="522" weight="2.451490664711855">
+        <attvalues>
+          <attvalue for="3" value="0.15020883657792528" />
+          <attvalue for="4" value="-0.23774620633339882" />
+        </attvalues>
+      </edge>
+      <edge source="SanJoseState" target="Stanford" id="523" weight="2.271312161891943">
+        <attvalues>
+          <attvalue for="3" value="0.3253306631169034" />
+          <attvalue for="4" value="-0.36370986896694113" />
+        </attvalues>
+      </edge>
+      <edge source="SanJoseState" target="TexasElPaso" id="524" weight="0.13471583855375271">
+        <attvalues>
+          <attvalue for="3" value="-5.315150019386381" />
+          <attvalue for="4" value="0.2663163824637348" />
+        </attvalues>
+      </edge>
+      <edge source="SanJoseState" target="Tulsa" id="525" weight="0.31672226140603665">
+        <attvalues>
+          <attvalue for="3" value="-4.549707212243767" />
+          <attvalue for="4" value="0.16100498049852674" />
+        </attvalues>
+      </edge>
+      <edge source="SanJoseState" target="TexasChristian" id="526" weight="0.3022697010426953">
+        <attvalues>
+          <attvalue for="3" value="-5.043806716129238" />
+          <attvalue for="4" value="0.22012297391965308" />
+        </attvalues>
+      </edge>
+      <edge source="SanJoseState" target="Hawaii" id="527" weight="0.25656413797242816">
+        <attvalues>
+          <attvalue for="3" value="-4.055746479975953" />
+          <attvalue for="4" value="0.2219446866158472" />
+        </attvalues>
+      </edge>
+      <edge source="Nebraska" target="NotreDame" id="528" weight="4.18397032398551">
+        <attvalues>
+          <attvalue for="3" value="0.512940068627544" />
+          <attvalue for="4" value="-0.3652267166830159" />
+        </attvalues>
+      </edge>
+      <edge source="Nebraska" target="Oklahoma" id="529" weight="0.28929181234765">
+        <attvalues>
+          <attvalue for="3" value="-3.4346887757006526" />
+          <attvalue for="4" value="0.12570167771751772" />
+        </attvalues>
+      </edge>
+      <edge source="Nebraska" target="Missouri" id="530" weight="0.17748540169695307">
+        <attvalues>
+          <attvalue for="3" value="-4.086269903113284" />
+          <attvalue for="4" value="0.19409048504000337" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMississippi" target="Tennessee" id="531" weight="2.17213025465325">
+        <attvalues>
+          <attvalue for="3" value="0.3192357074827583" />
+          <attvalue for="4" value="-0.14354324991265321" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMississippi" target="Tulane" id="532" weight="0.22345843728884382">
+        <attvalues>
+          <attvalue for="3" value="-4.130541893696806" />
+          <attvalue for="4" value="0.16952238618387339" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMississippi" target="Cincinnati" id="533" weight="0.3999252578373755">
+        <attvalues>
+          <attvalue for="3" value="-3.515994384810319" />
+          <attvalue for="4" value="0.10914241889460419" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMississippi" target="OklahomaState" id="534" weight="3.364296749632736">
+        <attvalues>
+          <attvalue for="3" value="0.26868585794205857" />
+          <attvalue for="4" value="-0.5518812721157904" />
+        </attvalues>
+      </edge>
+      <edge source="SouthernMississippi" target="AlabamaBirmingham" id="535" weight="0.05037631406397684">
+        <attvalues>
+          <attvalue for="3" value="-8.727139778690121" />
+          <attvalue for="4" value="0.1883909002303501" />
+        </attvalues>
+      </edge>
+      <edge source="Tennessee" target="Georgia" id="536" weight="0.29941657880440065">
+        <attvalues>
+          <attvalue for="3" value="-3.2072497718671134" />
+          <attvalue for="4" value="0.17290004368999068" />
+        </attvalues>
+      </edge>
+      <edge source="Tennessee" target="LouisianaState" id="537" weight="0.044337046635994824">
+        <attvalues>
+          <attvalue for="3" value="-6.133415568238454" />
+          <attvalue for="4" value="0.23460080137943984" />
+        </attvalues>
+      </edge>
+      <edge source="Tennessee" target="Arkansas" id="538" weight="0.19877135830201664">
+        <attvalues>
+          <attvalue for="3" value="-3.394476244833313" />
+          <attvalue for="4" value="0.22932495176833878" />
+        </attvalues>
+      </edge>
+      <edge source="Stanford" target="WashingtonState" id="539" weight="0.2972164778391442">
+        <attvalues>
+          <attvalue for="3" value="-4.301531114980239" />
+          <attvalue for="4" value="0.13303240916430725" />
+        </attvalues>
+      </edge>
+      <edge source="Stanford" target="NotreDame" id="540" weight="3.3688076052356255">
+        <attvalues>
+          <attvalue for="3" value="0.4577638512122446" />
+          <attvalue for="4" value="-0.2757939612242788" />
+        </attvalues>
+      </edge>
+      <edge source="Stanford" target="Texas" id="541" weight="3.275573866747367">
+        <attvalues>
+          <attvalue for="3" value="0.27592411775480197" />
+          <attvalue for="4" value="-0.5008443979051989" />
+        </attvalues>
+      </edge>
+      <edge source="Stanford" target="OregonState" id="542" weight="0.297636760040918">
+        <attvalues>
+          <attvalue for="3" value="-3.6559258856895136" />
+          <attvalue for="4" value="0.23250656715654783" />
+        </attvalues>
+      </edge>
+      <edge source="Stanford" target="California" id="543" weight="0.2258157736125298">
+        <attvalues>
+          <attvalue for="3" value="-5.440009453272291" />
+          <attvalue for="4" value="0.22577566849337893" />
+        </attvalues>
+      </edge>
+      <edge source="WashingtonState" target="OregonState" id="544" weight="0.07889544804177488">
+        <attvalues>
+          <attvalue for="3" value="-6.507856356754762" />
+          <attvalue for="4" value="0.3297219900221585" />
+        </attvalues>
+      </edge>
+      <edge source="WashingtonState" target="California" id="545" weight="0.26365346262899436">
+        <attvalues>
+          <attvalue for="3" value="-5.344009247726976" />
+          <attvalue for="4" value="0.22085474079380862" />
+        </attvalues>
+      </edge>
+      <edge source="Temple" target="Navy" id="546" weight="0.3082367680142313">
+        <attvalues>
+          <attvalue for="3" value="-3.5912789600854254" />
+          <attvalue for="4" value="-0.10302408342381408" />
+        </attvalues>
+      </edge>
+      <edge source="Temple" target="Rutgers" id="547" weight="0.0387537488851647">
+        <attvalues>
+          <attvalue for="3" value="-10.944198234698808" />
+          <attvalue for="4" value="0.3159129765131927" />
+        </attvalues>
+      </edge>
+      <edge source="Temple" target="MiamiFlorida" id="548" weight="0.3473265197805548">
+        <attvalues>
+          <attvalue for="3" value="-3.6042227858550264" />
+          <attvalue for="4" value="0.1897527730090851" />
+        </attvalues>
+      </edge>
+      <edge source="Temple" target="Maryland" id="549" weight="2.1183042829094396">
+        <attvalues>
+          <attvalue for="3" value="0.13808607945744733" />
+          <attvalue for="4" value="-0.15420414614139588" />
+        </attvalues>
+      </edge>
+      <edge source="Navy" target="NotreDame" id="550" weight="0.29943008395719134">
+        <attvalues>
+          <attvalue for="3" value="-3.9136613750679583" />
+          <attvalue for="4" value="-0.23028956909016252" />
+        </attvalues>
+      </edge>
+      <edge source="Navy" target="Toledo" id="551" weight="2.665072600150733">
+        <attvalues>
+          <attvalue for="3" value="0.09165260225718963" />
+          <attvalue for="4" value="-0.3937615610429974" />
+        </attvalues>
+      </edge>
+      <edge source="Navy" target="Tulane" id="552" weight="2.5761836071308486">
+        <attvalues>
+          <attvalue for="3" value="0.24416452558370982" />
+          <attvalue for="4" value="-0.32780701591013295" />
+        </attvalues>
+      </edge>
+      <edge source="Navy" target="Army" id="553" weight="2.5217780386464588">
+        <attvalues>
+          <attvalue for="3" value="0.3064788669191102" />
+          <attvalue for="4" value="-0.1907741746436018" />
+        </attvalues>
+      </edge>
+      <edge source="Navy" target="AirForce" id="554" weight="3.151555174201405">
+        <attvalues>
+          <attvalue for="3" value="0.4438876787230518" />
+          <attvalue for="4" value="-0.33507003109189637" />
+        </attvalues>
+      </edge>
+      <edge source="Navy" target="Rutgers" id="555" weight="0.3841453475518152">
+        <attvalues>
+          <attvalue for="3" value="-3.6577565569849533" />
+          <attvalue for="4" value="-0.11554173798363743" />
+        </attvalues>
+      </edge>
+      <edge source="Navy" target="WakeForest" id="556" weight="2.1368931810878165">
+        <attvalues>
+          <attvalue for="3" value="0.11845370250958531" />
+          <attvalue for="4" value="-0.294237397909588" />
+        </attvalues>
+      </edge>
+      <edge source="Navy" target="TexasChristian" id="557" weight="3.914217737575439">
+        <attvalues>
+          <attvalue for="3" value="0.37649535508074183" />
+          <attvalue for="4" value="-0.46369100446976086" />
+        </attvalues>
+      </edge>
+      <edge source="TexasA&amp;M" target="NotreDame" id="558" weight="4.222375159899356">
+        <attvalues>
+          <attvalue for="3" value="0.4808302962736234" />
+          <attvalue for="4" value="-0.3236591039774228" />
+        </attvalues>
+      </edge>
+      <edge source="TexasA&amp;M" target="TexasElPaso" id="559" weight="2.3723653637991777">
+        <attvalues>
+          <attvalue for="3" value="0.1915654451174139" />
+          <attvalue for="4" value="-0.23011029092813562" />
+        </attvalues>
+      </edge>
+      <edge source="TexasA&amp;M" target="Oklahoma" id="560" weight="0.261368464258606">
+        <attvalues>
+          <attvalue for="3" value="-3.5200667052105814" />
+          <attvalue for="4" value="0.22200386423473373" />
+        </attvalues>
+      </edge>
+      <edge source="TexasA&amp;M" target="Texas" id="561" weight="0.30885199548998876">
+        <attvalues>
+          <attvalue for="3" value="-3.5047057418624785" />
+          <attvalue for="4" value="0.17295546399526995" />
+        </attvalues>
+      </edge>
+      <edge source="TexasA&amp;M" target="OklahomaState" id="562" weight="0.2188884676429453">
+        <attvalues>
+          <attvalue for="3" value="-3.8416890550386595" />
+          <attvalue for="4" value="0.22530283367487114" />
+        </attvalues>
+      </edge>
+      <edge source="NotreDame" target="AirForce" id="563" weight="3.2318796365346913">
+        <attvalues>
+          <attvalue for="3" value="0.3508355008822547" />
+          <attvalue for="4" value="-0.2420642466826095" />
+        </attvalues>
+      </edge>
+      <edge source="NotreDame" target="Rutgers" id="564" weight="0.4272332493911215">
+        <attvalues>
+          <attvalue for="3" value="-3.375939213693975" />
+          <attvalue for="4" value="-0.19630767291667084" />
+        </attvalues>
+      </edge>
+      <edge source="NotreDame" target="MichiganState" id="565" weight="3.262504831958004">
+        <attvalues>
+          <attvalue for="3" value="0.4367993175902891" />
+          <attvalue for="4" value="-0.2813601617530592" />
+        </attvalues>
+      </edge>
+      <edge source="TexasElPaso" target="Oklahoma" id="566" weight="2.06615847812539">
+        <attvalues>
+          <attvalue for="3" value="0.6089138087975483" />
+          <attvalue for="4" value="-0.09685027076268238" />
+        </attvalues>
+      </edge>
+      <edge source="TexasElPaso" target="Tulsa" id="567" weight="0.13997909740771036">
+        <attvalues>
+          <attvalue for="3" value="-5.437002691781018" />
+          <attvalue for="4" value="0.3264597736938851" />
+        </attvalues>
+      </edge>
+      <edge source="TexasElPaso" target="TexasChristian" id="568" weight="0.2616358376038213">
+        <attvalues>
+          <attvalue for="3" value="-4.084163687354495" />
+          <attvalue for="4" value="0.267483387558352" />
+        </attvalues>
+      </edge>
+      <edge source="TexasElPaso" target="Hawaii" id="569" weight="0.2560188486469058">
+        <attvalues>
+          <attvalue for="3" value="-4.201999772825248" />
+          <attvalue for="4" value="0.2207521826854426" />
+        </attvalues>
+      </edge>
+      <edge source="Oklahoma" target="Texas" id="570" weight="0.2959996064374553">
+        <attvalues>
+          <attvalue for="3" value="-3.303567349169442" />
+          <attvalue for="4" value="0.21421848911223895" />
+        </attvalues>
+      </edge>
+      <edge source="Oklahoma" target="OklahomaState" id="571" weight="0.17095002187140113">
+        <attvalues>
+          <attvalue for="3" value="-3.7466843424986056" />
+          <attvalue for="4" value="0.19363115535271502" />
+        </attvalues>
+      </edge>
+      <edge source="Toledo" target="Marshall" id="572" weight="0.1953741986046606">
+        <attvalues>
+          <attvalue for="3" value="-2.6619279808777194" />
+          <attvalue for="4" value="0.11393676725020718" />
+        </attvalues>
+      </edge>
+      <edge source="Tulane" target="Mississippi" id="573" weight="2.333753073500312">
+        <attvalues>
+          <attvalue for="3" value="0.13062868999556954" />
+          <attvalue for="4" value="-0.2286011718078922" />
+        </attvalues>
+      </edge>
+      <edge source="Tulane" target="Army" id="574" weight="0.2065072760078474">
+        <attvalues>
+          <attvalue for="3" value="-4.416961272567565" />
+          <attvalue for="4" value="0.177406189754869" />
+        </attvalues>
+      </edge>
+      <edge source="Tulane" target="Cincinnati" id="575" weight="0.2521159527341212">
+        <attvalues>
+          <attvalue for="3" value="-4.14537029439891" />
+          <attvalue for="4" value="0.12970545240164233" />
+        </attvalues>
+      </edge>
+      <edge source="Tulane" target="LouisianaLafayette" id="576" weight="2.151590196508183">
+        <attvalues>
+          <attvalue for="3" value="0.0587011177337855" />
+          <attvalue for="4" value="-0.22375079887885585" />
+        </attvalues>
+      </edge>
+      <edge source="Mississippi" target="Georgia" id="577" weight="0.18925472898423584">
+        <attvalues>
+          <attvalue for="3" value="-3.6595502647325775" />
+          <attvalue for="4" value="0.16706497258477793" />
+        </attvalues>
+      </edge>
+      <edge source="Mississippi" target="LouisianaState" id="578" weight="0.2424128226136167">
+        <attvalues>
+          <attvalue for="3" value="-3.4768657047926324" />
+          <attvalue for="4" value="0.21253004224118333" />
+        </attvalues>
+      </edge>
+      <edge source="Mississippi" target="NevadaLasVegas" id="579" weight="3.072736158585085">
+        <attvalues>
+          <attvalue for="3" value="0.2651276092135719" />
+          <attvalue for="4" value="-0.47740124792692185" />
+        </attvalues>
+      </edge>
+      <edge source="Mississippi" target="Arkansas" id="580" weight="0.17424950045636478">
+        <attvalues>
+          <attvalue for="3" value="-3.923658320121951" />
+          <attvalue for="4" value="0.21685903225044267" />
+        </attvalues>
+      </edge>
+      <edge source="Tulsa" target="NorthCarolina" id="581" weight="2.939122371881233">
+        <attvalues>
+          <attvalue for="3" value="0.1300255635001737" />
+          <attvalue for="4" value="-0.574723511128542" />
+        </attvalues>
+      </edge>
+      <edge source="Tulsa" target="OklahomaState" id="582" weight="2.3948118912006815">
+        <attvalues>
+          <attvalue for="3" value="0.18242967735691162" />
+          <attvalue for="4" value="-0.3460760785436956" />
+        </attvalues>
+      </edge>
+      <edge source="Tulsa" target="TexasChristian" id="583" weight="0.18968896175748814">
+        <attvalues>
+          <attvalue for="3" value="-4.811497088217953" />
+          <attvalue for="4" value="0.2067461649502007" />
+        </attvalues>
+      </edge>
+      <edge source="Tulsa" target="Hawaii" id="584" weight="0.15190298705301966">
+        <attvalues>
+          <attvalue for="3" value="-5.377006341410988" />
+          <attvalue for="4" value="0.2515195134150924" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolina" target="Marshall" id="585" weight="3.4278018780016826">
+        <attvalues>
+          <attvalue for="3" value="0.4320226456183065" />
+          <attvalue for="4" value="-0.47482230772277867" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolina" target="Clemson" id="586" weight="0.3315789368448267">
+        <attvalues>
+          <attvalue for="3" value="-3.619182092606067" />
+          <attvalue for="4" value="0.26542891488734666" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolina" target="WakeForest" id="587" weight="0.2806989263723551">
+        <attvalues>
+          <attvalue for="3" value="-4.74627014335435" />
+          <attvalue for="4" value="0.2692056977993925" />
+        </attvalues>
+      </edge>
+      <edge source="NorthCarolina" target="Maryland" id="588" weight="0.19434333961267672">
+        <attvalues>
+          <attvalue for="3" value="-4.513891077102186" />
+          <attvalue for="4" value="0.3065954626851086" />
+        </attvalues>
+      </edge>
+      <edge source="Army" target="Cincinnati" id="589" weight="0.317407534202455">
+        <attvalues>
+          <attvalue for="3" value="-3.828713082661239" />
+          <attvalue for="4" value="0.038158880543897156" />
+        </attvalues>
+      </edge>
+      <edge source="Army" target="AirForce" id="590" weight="3.1075258344680172">
+        <attvalues>
+          <attvalue for="3" value="0.47563498322124365" />
+          <attvalue for="4" value="-0.3881881459680985" />
+        </attvalues>
+      </edge>
+      <edge source="Army" target="AlabamaBirmingham" id="591" weight="0.3597515364172101">
+        <attvalues>
+          <attvalue for="3" value="-3.7411045169971073" />
+          <attvalue for="4" value="0.03318450615237545" />
+        </attvalues>
+      </edge>
+      <edge source="Cincinnati" target="Indiana" id="592" weight="3.302733645569178">
+        <attvalues>
+          <attvalue for="3" value="0.4212874849030489" />
+          <attvalue for="4" value="-0.3312463085928927" />
+        </attvalues>
+      </edge>
+      <edge source="Cincinnati" target="AlabamaBirmingham" id="593" weight="0.3712803311253743">
+        <attvalues>
+          <attvalue for="3" value="-3.6405355987525585" />
+          <attvalue for="4" value="0.07165017403040264" />
+        </attvalues>
+      </edge>
+      <edge source="AirForce" target="NevadaLasVegas" id="594" weight="0.3791235156312904">
+        <attvalues>
+          <attvalue for="3" value="-3.7086437464196402" />
+          <attvalue for="4" value="0.14075943780935918" />
+        </attvalues>
+      </edge>
+      <edge source="Rutgers" target="MiamiFlorida" id="595" weight="0.42089641904984904">
+        <attvalues>
+          <attvalue for="3" value="-3.5208148572678413" />
+          <attvalue for="4" value="0.18621847502659705" />
+        </attvalues>
+      </edge>
+      <edge source="Georgia" target="Arkansas" id="596" weight="0.1383303625218157">
+        <attvalues>
+          <attvalue for="3" value="-3.9114725719948877" />
+          <attvalue for="4" value="0.2394749036831385" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaState" target="AlabamaBirmingham" id="597" weight="2.2254721611445687">
+        <attvalues>
+          <attvalue for="3" value="0.22633919531337798" />
+          <attvalue for="4" value="-0.15558992355141887" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaState" target="Arkansas" id="598" weight="0.26487451556612934">
+        <attvalues>
+          <attvalue for="3" value="-3.7641771966622812" />
+          <attvalue for="4" value="0.19282613318211284" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaLafayette" target="Texas" id="599" weight="2.8348604887457047">
+        <attvalues>
+          <attvalue for="3" value="0.44596358317786555" />
+          <attvalue for="4" value="-0.22747450509936407" />
+        </attvalues>
+      </edge>
+      <edge source="LouisianaLafayette" target="AlabamaBirmingham" id="600" weight="1.9524762938836333">
+        <attvalues>
+          <attvalue for="3" value="0.32300157491027925" />
+          <attvalue for="4" value="-0.101463755044374" />
+        </attvalues>
+      </edge>
+      <edge source="Texas" target="Missouri" id="601" weight="0.335722641224466">
+        <attvalues>
+          <attvalue for="3" value="-3.3777542428720313" />
+          <attvalue for="4" value="0.07882898862777565" />
+        </attvalues>
+      </edge>
+      <edge source="Texas" target="OklahomaState" id="602" weight="0.15168305420932324">
+        <attvalues>
+          <attvalue for="3" value="-4.15546032110031" />
+          <attvalue for="4" value="0.2760567650825889" />
+        </attvalues>
+      </edge>
+      <edge source="Marshall" target="MichiganState" id="603" weight="2.370941208835281">
+        <attvalues>
+          <attvalue for="3" value="0.15557997466038964" />
+          <attvalue for="4" value="-0.1461526143862184" />
+        </attvalues>
+      </edge>
+      <edge source="MichiganState" target="Missouri" id="604" weight="2.9815368427667805">
+        <attvalues>
+          <attvalue for="3" value="0.2827808176441535" />
+          <attvalue for="4" value="-0.4237720238368987" />
+        </attvalues>
+      </edge>
+      <edge source="Missouri" target="Clemson" id="605" weight="3.537043668180084">
+        <attvalues>
+          <attvalue for="3" value="0.3593930593143686" />
+          <attvalue for="4" value="-0.6562278575590492" />
+        </attvalues>
+      </edge>
+      <edge source="Missouri" target="OklahomaState" id="606" weight="0.3148423494227426">
+        <attvalues>
+          <attvalue for="3" value="-3.3270671805541996" />
+          <attvalue for="4" value="0.14165037876162823" />
+        </attvalues>
+      </edge>
+      <edge source="Clemson" target="WakeForest" id="607" weight="0.23654618968443147">
+        <attvalues>
+          <attvalue for="3" value="-3.955569984183782" />
+          <attvalue for="4" value="0.3435488444262884" />
+        </attvalues>
+      </edge>
+      <edge source="Clemson" target="Maryland" id="608" weight="0.33214824756327627">
+        <attvalues>
+          <attvalue for="3" value="-3.868698968961784" />
+          <attvalue for="4" value="0.22564072734538654" />
+        </attvalues>
+      </edge>
+      <edge source="NevadaLasVegas" target="Hawaii" id="609" weight="2.4379509714230347">
+        <attvalues>
+          <attvalue for="3" value="0.23288171980265704" />
+          <attvalue for="4" value="-0.3669834150560318" />
+        </attvalues>
+      </edge>
+      <edge source="WakeForest" target="Maryland" id="610" weight="0.07537547149559194">
+        <attvalues>
+          <attvalue for="3" value="-7.21830908117013" />
+          <attvalue for="4" value="0.31569012470253033" />
+        </attvalues>
+      </edge>
+      <edge source="OregonState" target="California" id="611" weight="0.17491069571877305">
+        <attvalues>
+          <attvalue for="3" value="-4.1604704839511575" />
+          <attvalue for="4" value="0.32063645528732865" />
+        </attvalues>
+      </edge>
+      <edge source="TexasChristian" target="Hawaii" id="612" weight="0.17607353006831927">
+        <attvalues>
+          <attvalue for="3" value="-5.032979047849838" />
+          <attvalue for="4" value="0.2661493380193396" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
